@@ -7,13 +7,6 @@ script_dir = Path(__file__).parent
 
 DataBaseType = "All" # All / Stardle / Simple
 
-def getParameter(data:dict, key:str):
-    if(key in data):
-        return data[key]
-    else:
-        return "N/A"
-    
-
 if __name__ == "__main__":
 
     data = requests.get(Url)
@@ -32,7 +25,8 @@ if __name__ == "__main__":
     for ship in data["data"]:
         ShipName[ship["name"]] = ship["link"]
         
-        ShipData = requests.get(ship["link"])
+        ShipUrl = f"https://api.star-citizen.wiki/api/v3/vehicles/{ship["name"]}?locale=en_EN"
+        ShipData = requests.get(ShipUrl)
         if(ShipData.status_code != 200 or "data" not in ShipData.json()):
             print(f"Error with reception of data for {ship['name']}")
             continue
@@ -43,23 +37,22 @@ if __name__ == "__main__":
 
         #get only the parameters we need
         if DataBaseType == "Stardle":
-            Ship["name"] = getParameter(ShipData, "name")
-            Ship["manufacturer"] = getParameter(ShipData, "manufacturer")["name"]
+            Ship["name"] = ShipData["name"]
+            Ship["manufacturer"] = ShipData["manufacturer"]["name"]
+            Ship["role"] = ShipData["foci"]
+            Ship["length"] = ShipData["sizes"]["length"]
             
-            Roles = []
-            role = getParameter(ShipData, "foci")
-            for r in role:
-                Roles.append(r["en_EN"])
-            Ship["role"] = Roles
-            Ship["length"] = getParameter(ShipData, "sizes")["length"]
-            
-            Ship["value"] = getParameter(ShipData, "skus")
+            Ship["value"] = ShipData["skus"]
             if(len(Ship["value"]) > 0):
                 Ship["value"] = Ship["value"][0]["price"]
             else:
                 Ship["value"] = "N/A"
-            Ship["cargo"] = getParameter(ShipData, "cargo_capacity")
-            Ship["crew"] = getParameter(ShipData, "crew")["max"]
+            
+            Ship["cargo"] = ShipData["cargo_capacity"]
+            if(ShipData["crew"]["max"] == None):
+                Ship["crew"] = ShipData["crew"]["min"]
+            else:
+                Ship["crew"] = ShipData["crew"]["max"]
             Ship["release_year"] = "" #Not Implemented
 
             ShipDB[ship["name"]] = Ship
@@ -73,7 +66,7 @@ if __name__ == "__main__":
         elif DataBaseType == "All":
             ShipDB[ship["name"]] = ShipData
         
-        ShipName[ship["name"]] = ship["link"]
+        ShipName[ship["name"]] = ShipUrl
 
     with open(script_dir  / "shipList.json", "w") as file:
         json.dump(ShipName, file, indent=4)
