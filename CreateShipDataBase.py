@@ -9,7 +9,7 @@ DataBaseType = "All" # All / Stardle / Simple
 
 if __name__ == "__main__":
 
-    data = requests.get(Url)
+    data = requests.get(Url, verify=False)
     if data.status_code != 200:
         raise Exception("Error with reception of data")
 
@@ -26,7 +26,7 @@ if __name__ == "__main__":
         ShipName[ship["name"]] = ship["link"]
         
         ShipUrl = f"https://api.star-citizen.wiki/api/v3/vehicles/{ship["name"]}?locale=en_EN"
-        ShipData = requests.get(ShipUrl)
+        ShipData = requests.get(ShipUrl, verify=False)
         if(ShipData.status_code != 200 or "data" not in ShipData.json()):
             print(f"Error with reception of data for {ship['name']}")
             continue
