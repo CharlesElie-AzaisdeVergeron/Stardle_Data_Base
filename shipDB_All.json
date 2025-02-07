@@ -1432,7 +1432,7 @@
                 "version": "3.24.3-LIVE.9423704"
             }
         ],
-        "updated_at": "2024-12-05T19:00:43.000000Z"
+        "updated_at": "2025-01-27T18:16:53.000000Z"
     },
     "600i Touring": {
         "uuid": "11b660a2-c77c-490b-9e85-ee70400c5cf8",
@@ -11621,6 +11621,53 @@
         },
         "loaner": [],
         "updated_at": "2025-01-13T20:54:17.000000Z"
+    },
+    "Fortune": {
+        "id": 288,
+        "chassis_id": 121,
+        "name": "Fortune",
+        "slug": "fortune",
+        "sizes": {
+            "length": 26,
+            "beam": 16,
+            "height": 7
+        },
+        "mass": 116477,
+        "cargo_capacity": 12,
+        "crew": {
+            "min": 1,
+            "max": 1
+        },
+        "speed": {
+            "scm": 143,
+            "max": null
+        },
+        "agility": {
+            "pitch": null,
+            "yaw": null,
+            "roll": null,
+            "acceleration": {
+                "x_axis": null,
+                "y_axis": null,
+                "z_axis": null
+            }
+        },
+        "foci": [
+            "Salvage"
+        ],
+        "production_status": "flight-ready",
+        "production_note": "None",
+        "type": "industrial",
+        "description": "Get the job done quickly with MISC\u2019s most efficient salvager yet. It\u2019s not a simple job, but the Fortune makes it easier.",
+        "size": "small",
+        "msrp": null,
+        "skus": [],
+        "manufacturer": {
+            "code": "MISC",
+            "name": "MISC"
+        },
+        "loaner": [],
+        "updated_at": "2025-01-29T00:15:08.000000Z"
     },
     "Freelancer": {
         "uuid": "b4791030-9d64-4f98-85cb-ca106f868c5e",
@@ -32145,7 +32192,7 @@
                 "version": "3.23.1-LIVE.9179031"
             }
         ],
-        "updated_at": "2025-01-13T20:52:34.000000Z"
+        "updated_at": "2025-01-27T18:52:49.000000Z"
     },
     "Zeus Mk II ES": {
         "id": 251,
@@ -32218,7 +32265,7 @@
                 "version": "3.23.1-LIVE.9179031"
             }
         ],
-        "updated_at": "2025-01-13T20:51:58.000000Z"
+        "updated_at": "2025-01-27T18:53:31.000000Z"
     },
     "Zeus Mk II MR": {
         "id": 256,
