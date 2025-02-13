@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup
 import re
 
 
-
 ship_db = pd.read_json("shipDB_All.json").T
 ship_db = ship_db.drop(['description','pledge_url','chassis_id','updated_at','production_note','loaner','id','size_class','slug','version','class_name','msrp'], axis = 1)
 Sizes = dict(ship_db['sizes'])
@@ -54,7 +53,7 @@ prix = dict(set(prix_doublons))
 
 
 input_prices = prix
-#del  input_prices['Ship']
+del  input_prices['Ship']
 
 def clean_price(price_str):
     # Remove any parentheses and their content
