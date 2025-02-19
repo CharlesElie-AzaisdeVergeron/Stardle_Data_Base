@@ -15,7 +15,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 import re
-
+import numpy as np
 
 # Constantes globales
 URL_SHIP_PRICES = 'https://scfocus.org/ship-sale-rental-locations-history/'
@@ -26,7 +26,7 @@ COLUMNS_TO_DROP = [
 ]
 
 # Chargement et nettoyage initial de la base de données des vaisseaux
-ship_db = pd.read_json("shipDB_All.json").T
+ship_db = pd.read_json("/home/leferre/Bureau/Fac/base de données/Projet/Stardle_Data_Base/shipDB_All.json").T
 ship_db = ship_db.drop(COLUMNS_TO_DROP, axis=1)
 
 # Extraction des données de base
@@ -158,7 +158,7 @@ def main():
     converted_prices = {k: clean_price(v) for k, v in input_prices.items()}
 
     # Création de la base de données finale
-    stardle_db = pd.read_json('shipDB_Stardle.json').T
+    stardle_db = pd.read_json('/home/leferre/Bureau/Fac/base de données/Projet/Stardle_Data_Base/shipDB_Stardle.json').T
     stardle_db = stardle_db.drop(['description', 'speed'], axis=1)
 
     # Ajout des colonnes calculées
@@ -175,6 +175,12 @@ def main():
         height=height_dict
     )
 
+
+    colonnes_numeriques = stardle_db.select_dtypes(include=['int64', 'float64'])
+
+    for i in colonnes_numeriques.keys():
+        stardle_db[i].replace(np.nan,stardle_db[i].mean(), inplace=True)
+    
     # Sauvegarde en CSV
     stardle_db.to_csv('stradle_db.csv', index=False)
 
