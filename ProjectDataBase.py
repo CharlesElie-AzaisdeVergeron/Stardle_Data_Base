@@ -183,9 +183,10 @@ def main():
     for i in colonnes_numeriques.keys():
         stardle_db[i].replace(np.nan,stardle_db[i].mean(), inplace=True)
     
+    stardle_db.drop('dimensions', axis=1, inplace=True)
+    
     # Sauvegarde en CSV
     stardle_db.to_csv('stradle_db.csv', index=False)
-
 
 if __name__ == "__main__":
     main()
