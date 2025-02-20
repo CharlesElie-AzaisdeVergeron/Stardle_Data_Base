@@ -7,3 +7,5 @@ Une base de données pour le jeu Stardle.net
          debugguer les problemes avec la derniere url 
          dans le dictionnaire " converted price " il faut poser le prix a 42  aux vaisseaux de stardle qui ne sont pas dedans pour avoir le meme nombre de vaisseaux
          
+
+         rassembler plusieurs datasets pour les comparer entre eux ( K means ) ( comparer les dataset Star wars/ Elite Dangerous avec ceux de SC )

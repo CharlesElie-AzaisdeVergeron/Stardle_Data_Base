@@ -175,7 +175,9 @@ def main():
         height=height_dict
     )
 
-
+    stardle_db= stardle_db.replace({None: np.nan})
+    stardle_db['mass'] = stardle_db['mass'].astype(np.float64)
+    
     colonnes_numeriques = stardle_db.select_dtypes(include=['int64', 'float64'])
 
     for i in colonnes_numeriques.keys():
