@@ -3,9 +3,8 @@ Une base de données pour le jeu Stardle.net
 
 
 #To DO : Debugguer la fonction DataBase et la remettre en forme
-         melanger les informations entre les 3 bases de données 
-         debugguer les problemes avec la derniere url 
-         dans le dictionnaire " converted price " il faut poser le prix a 42  aux vaisseaux de stardle qui ne sont pas dedans pour avoir le meme nombre de vaisseaux
-         
-
+         dans le dictionnaire " converted price " 
+         remplir les cases manquantes de longueurs, largeurs, hauteurs et de prix in game avec les dictionnaires de vitesses,dimensions( de ProjectDataBase) et P. 
+        
+        preparer le notebook pour la presentation
          rassembler plusieurs datasets pour les comparer entre eux ( K means ) ( comparer les dataset Star wars/ Elite Dangerous avec ceux de SC )

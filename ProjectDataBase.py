@@ -18,7 +18,6 @@ import re
 import numpy as np
 
 # Constantes globales
-URL_SHIP_PRICES = 'https://scfocus.org/ship-sale-rental-locations-history/'
 COLUMNS_TO_DROP = [
     'description', 'pledge_url', 'chassis_id', 'updated_at',
     'production_note', 'loaner', 'id', 'size_class', 'slug',
@@ -26,65 +25,67 @@ COLUMNS_TO_DROP = [
 ]
 
 # Chargement et nettoyage initial de la base de données des vaisseaux
-ship_db = pd.read_json("/home/leferre/Bureau/Fac/base de données/Projet/Stardle_Data_Base/shipDB_All.json").T
-ship_db = ship_db.drop(COLUMNS_TO_DROP, axis=1)
+bd_vaisseaux = pd.read_json(
+    "/home/leferre/Bureau/Fac/base de données/Projet/Stardle_Data_Base/shipDB_All.json"
+).T
+bd_vaisseaux = bd_vaisseaux.drop(COLUMNS_TO_DROP, axis=1)
 
 # Extraction des données de base
-SIZES = dict(ship_db['sizes'])
-SPEED = dict(ship_db['speed'])
+DIMENSIONS = dict(bd_vaisseaux['sizes'])
+VITESSES = dict(bd_vaisseaux['speed'])
 
 
-def get_speeds(speed_dict=SPEED):
+def obtenir_vitesses(dict_vitesses=VITESSES):
     """
     Extrait les vitesses SCM et maximales des vaisseaux.
 
     Args:
-        speed_dict (dict): Dictionnaire contenant les données de vitesse
+        dict_vitesses (dict): Dictionnaire contenant les données de vitesse
 
     Returns:
         tuple: Deux dictionnaires (vitesses maximales, vitesses SCM)
     """
     scm = {}
-    max_speed = {}
-    
-    for ship, speed_data in speed_dict.items():
-        if str(speed_data) == 'None':
-            scm[ship] = max_speed[ship] = 'None'
+    vitesse_max = {}
+
+    for vaisseau, donnees_vitesse in dict_vitesses.items():
+        if str(donnees_vitesse) == 'None':
+            scm[vaisseau] = vitesse_max[vaisseau] = 'None'
             continue
         
-        for speed_type, value in speed_data.items():
-            if speed_type == 'scm':
-                scm[ship] = value
-            elif speed_type == 'max':
-                max_speed[ship] = value
+        for type_vitesse, valeur in donnees_vitesse.items():
+            if type_vitesse == 'scm':
+                scm[vaisseau] = valeur
+            elif type_vitesse == 'max':
+                vitesse_max[vaisseau] = valeur
                 
-    return max_speed, scm
+    return vitesse_max, scm
 
 
-def sizes(dimensions_dict=SIZES):
+def dimensions(dict_dimensions=DIMENSIONS):
     """
     Extrait les dimensions des vaisseaux.
 
     Args:
-        dimensions_dict (dict): Dictionnaire contenant les données de dimensions
+        dict_dimensions (dict): Dictionnaire contenant les données de dimensions
 
     Returns:
-        tuple: Trois dictionnaires (length, beam, height)
+        tuple: Trois dictionnaires (longueur, largeur, hauteur)
     """
-    length = {}
-    beam = {}
-    height = {}
+    longueur = {}
+    largeur = {}
+    hauteur = {}
 
-    for ship, dimensions in dimensions_dict.items():
-        for dim_type, value in dimensions.items():
-            if dim_type == 'length':
-                length[ship] = value
-            elif dim_type == 'beam':
-                beam[ship] = value
+    for vaisseau, dims in dict_dimensions.items():
+        for type_dim, valeur in dims.items():
+            if type_dim == 'length':
+                longueur[vaisseau] = valeur
+            elif type_dim == 'beam':
+                largeur[vaisseau] = valeur
             else:
-                height[ship] = value
-    
-    return length, beam, height
+                hauteur[vaisseau] = valeur
+
+    return longueur, largeur, hauteur
 
 
 def recuperer_contenu(url, nom_classe):
@@ -112,81 +113,78 @@ def recuperer_contenu(url, nom_classe):
     return soup.find_all(class_=nom_classe)
 
 
-def url_to_list(html_elements):
+def html_vers_liste(elements_html):
     """
     Convertit les éléments HTML en liste de texte nettoyé.
 
     Args:
-        html_elements (list): Liste d'éléments HTML
+        elements_html (list): Liste d'éléments HTML
 
     Returns:
         list: Liste de textes nettoyés, sans le premier élément
     """
-    cleaned_list = []
-    for element in html_elements:
-        text = element.text.replace("\n", "|").replace("\t", "")
-        cleaned_list.extend(text.split("|"))
-    return cleaned_list[1:]
+    liste_nettoyee = []
+    for element in elements_html:
+        texte = element.text.replace("\n", "|").replace("\t", "")
+        liste_nettoyee.extend(texte.split("|"))
+    return liste_nettoyee[1:]
 
 
-def clean_price(price_str):
+def nettoyer_prix(chaine_prix):
     """
     Nettoie et convertit une chaîne de prix en nombre flottant.
 
     Args:
-        price_str (str): Prix sous forme de chaîne
+        chaine_prix (str): Prix sous forme de chaîne
 
     Returns:
         float: Prix converti en nombre
     """
-    if '(' in price_str:
-        price_str = price_str[:price_str.index('(')].strip()
-    return float(price_str.replace(',', ''))
+    if '(' in chaine_prix:
+        chaine_prix = chaine_prix[:chaine_prix.index('(')].strip()
+    return float(chaine_prix.replace(',', ''))
 
 
 def main():
-    """Fonction principale exécutant la logique du programme."""
-    # Récupération des données de prix
-    vaisseaux = recuperer_contenu(URL_SHIP_PRICES, nom_classe='column-1')
-    prix_html = recuperer_contenu(URL_SHIP_PRICES, nom_classe='column-2')
-
-    # Traitement des prix
-    prix_doublons = list(zip(url_to_list(vaisseaux), url_to_list(prix_html)))
-    prix = dict(set(prix_doublons))
-    input_prices = prix.copy()
-    del input_prices['Ship']
-    converted_prices = {k: clean_price(v) for k, v in input_prices.items()}
 
     # Création de la base de données finale
-    stardle_db = pd.read_json('/home/leferre/Bureau/Fac/base de données/Projet/Stardle_Data_Base/shipDB_Stardle.json').T
-    stardle_db = stardle_db.drop(['description', 'speed'], axis=1)
+    bd_stardle = pd.read_json(
+        '/home/leferre/Bureau/Fac/base de données/Projet/Stardle_Data_Base/shipDB_Stardle.json'
+    ).T
+    bd_stardle = bd_stardle.drop(['description', 'speed', 'dimensions'], axis=1)
 
     # Ajout des colonnes calculées
-    max_speeds, scm_speeds = get_speeds()
-    length_dict, beam_dict, height_dict = sizes()
-
-    # Mise à jour du DataFrame
-    stardle_db = stardle_db.assign(
-        scm=scm_speeds,
-        max=max_speeds,
-        price_ingame=converted_prices,
-        length=length_dict,
-        beam=beam_dict,
-        height=height_dict
+    vitesses_max, vitesses_scm = obtenir_vitesses()
+    dict_longueur, dict_largeur, dict_hauteur = dimensions()
+    donnees_jeu = pd.read_csv(
+        '/home/leferre/Bureau/Fac/base de données/Projet/Stardle_Data_Base/#DPSCalculatorCART(1).csv'
     )
+    donnees_jeu.drop(
+        ['Shop', 'Location', 'System', 'Quantity', 'Unnamed: 6'],
+        axis=1,
+        inplace=True
+    )
+    dict_jeu = pd.DataFrame.to_dict(donnees_jeu)
+    valeurs = list(dict_jeu.values())
+    noms = list(valeurs[0].values())
+    prix = list(valeurs[1].values())
+    dict_prix = {}
 
-    stardle_db= stardle_db.replace({None: np.nan})
-    stardle_db['mass'] = stardle_db['mass'].astype(np.float64)
-    
-    colonnes_numeriques = stardle_db.select_dtypes(include=['int64', 'float64'])
-
-    for i in colonnes_numeriques.keys():
-        stardle_db[i].replace(np.nan,stardle_db[i].mean(), inplace=True)
-    
-    stardle_db.drop('dimensions', axis=1, inplace=True)
+    for nom, prix in zip(noms, prix):
+        dict_prix[nom] = prix
+        
+    # Mise à jour du DataFrame
+    bd_stardle = bd_stardle.assign(
+        prix_jeu=dict_prix,
+        scm=vitesses_scm,
+        max=vitesses_max,
+        longueur=dict_longueur,
+        largeur=dict_largeur,
+        hauteur=dict_hauteur
+    )
     
     # Sauvegarde en CSV
-    stardle_db.to_csv('stradle_db.csv', index=False)
+    bd_stardle.to_csv('bd_stardle.csv', index=False)
 
 if __name__ == "__main__":
     main()
