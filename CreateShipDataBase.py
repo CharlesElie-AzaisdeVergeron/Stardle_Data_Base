@@ -59,11 +59,6 @@ if __name__ == "__main__":
 
             ShipDB[ship["name"]] = Ship
 
-        #or get a simple version of the parameters
-        elif DataBaseType == "Simple":
-            #Not Implemented
-            pass
-
         #or get all the parameters
         elif DataBaseType == "All":
             ShipDB[ship["name"]] = ShipData
