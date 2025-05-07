@@ -1,0 +1,462 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.1)  6 MAY 2025 20:31
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/home/leferre/Bureau/Fac/base de données/Projet/Stardle_Data_Base/Rapport/test.tex"
+(/home/leferre/Bureau/Fac/base de données/Projet/Stardle_Data_Base/Rapport/test.tex
+LaTeX2e <2024-11-01>
+L3 programming layer <2024-11-02>
+(/home/leferre/.miktex/texmfs/install/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/home/leferre/.miktex/texmfs/install/tex/latex/base/size10.clo
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@section=\count197
+\c@subsection=\count198
+\c@subsubsection=\count199
+\c@paragraph=\count266
+\c@subparagraph=\count267
+\c@figure=\count268
+\c@table=\count269
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (/home/leferre/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/home/leferre/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/home/leferre/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (/home/leferre/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/home/leferre/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (/home/leferre/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+) (/home/leferre/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+ (/home/leferre/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (/home/leferre/.miktex/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (/home/leferre/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/home/leferre/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ (/home/leferre/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (/home/leferre/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/home/leferre/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (/home/leferre/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/home/leferre/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (/home/leferre/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/home/leferre/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/home/leferre/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count270
+) (/home/leferre/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count271
+) (/home/leferre/.miktex/texmfs/install/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen144
+\Hy@linkcounter=\count272
+\Hy@pagecounter=\count273
+ (/home/leferre/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/home/leferre/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count274
+ (/home/leferre/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count275
+ (/home/leferre/.miktex/texmfs/install/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen145
+ (/home/leferre/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/home/leferre/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count276
+\Field@Width=\dimen146
+\Fld@charsize=\dimen147
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+ (/home/leferre/.miktex/texmfs/install/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count277
+\c@Item=\count278
+\c@Hfootnote=\count279
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/home/leferre/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+ (/home/leferre/.miktex/texmfs/install/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count280
+\c@bookmark@seq@number=\count281
+ (/home/leferre/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/home/leferre/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip51
+) (/home/leferre/.miktex/texmfs/install/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count282
+ (/home/leferre/.miktex/texmfs/install/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip52
+ (/home/leferre/.miktex/texmfs/install/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count283
+) (/home/leferre/.miktex/texmfs/install/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+) (/home/leferre/.miktex/texmfs/install/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip53
+\skiplinenumber=\skip54
+\skiprule=\skip55
+\skiphlne=\skip56
+\skiptext=\skip57
+\skiplength=\skip58
+\algomargin=\skip59
+\skipalgocfslide=\skip60
+\algowidth=\dimen148
+\inoutsize=\dimen149
+\inoutindent=\dimen150
+\interspacetitleruled=\dimen151
+\interspacealgoruled=\dimen152
+\interspacetitleboxruled=\dimen153
+\algocf@ruledwidth=\skip61
+\algocf@inoutbox=\box52
+\algocf@inputbox=\box53
+\AlCapSkip=\skip62
+\AlCapHSkip=\skip63
+\algoskipindent=\skip64
+\algocf@nlbox=\box54
+\algocf@hangingbox=\box55
+\algocf@untilbox=\box56
+\algocf@skipuntil=\skip65
+\algocf@capbox=\box57
+\algocf@lcaptionbox=\skip66
+\algoheightruledefault=\skip67
+\algoheightrule=\skip68
+\algotitleheightruledefault=\skip69
+\algotitleheightrule=\skip70
+\c@algocfline=\count284
+\c@algocfproc=\count285
+\c@algocf=\count286
+\algocf@algoframe=\box58
+\algocf@algobox=\box59
+) (/home/leferre/.miktex/texmfs/install/tex/latex/pythontex/pythontex.sty
+Package: pythontex 2021/06/06 v0.18 execute and typeset Python code and other languages
+ (/home/leferre/.miktex/texmfs/install/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2025/03/04 v1.12.0 fvextra - extensions and patches for fancyvrb
+ (/home/leferre/.miktex/texmfs/install/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count287
+\FV@InFile=\read2
+\FV@TabBox=\box60
+\c@FancyVerbLine=\count288
+\FV@StepNumber=\count289
+\FV@OutFile=\write3
+) (/home/leferre/.miktex/texmfs/install/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+) (/home/leferre/.miktex/texmfs/install/tex/latex/lineno/lineno.sty
+Package: lineno 2025/01/29 line numbers on paragraphs v5.4
+\linenopenalty=\count290
+\output=\toks18
+\linenoprevgraf=\count291
+\linenumbersep=\dimen154
+\linenumberwidth=\dimen155
+\c@linenumber=\count292
+\c@pagewiselinenumber=\count293
+\c@LN@truepage=\count294
+\c@internallinenumber=\count295
+\c@internallinenumbers=\count296
+\quotelinenumbersep=\dimen156
+\bframerule=\dimen157
+\bframesep=\dimen158
+\bframebox=\box61
+LaTeX Info: Redefining \\ on input line 3187.
+)
+\c@FancyVerbWriteLine=\count297
+\c@FancyVerbBufferLine=\count298
+\c@FV@TrueTabGroupLevel=\count299
+\c@FV@TrueTabCounter=\count300
+\FV@TabBox@Group=\box62
+\FV@bgcolorstructbox=\box63
+\FV@TmpLength=\skip71
+\c@FV@HighlightLinesStart=\count301
+\c@FV@HighlightLinesStop=\count302
+\FV@LoopCount=\count303
+\FV@NCharsBox=\box64
+\FV@BreakIndent=\dimen159
+\FV@BreakIndentNChars=\count304
+\FV@BreakSymbolSepLeft=\dimen160
+\FV@BreakSymbolSepLeftNChars=\count305
+\FV@BreakSymbolSepRight=\dimen161
+\FV@BreakSymbolSepRightNChars=\count306
+\FV@BreakSymbolIndentLeft=\dimen162
+\FV@BreakSymbolIndentLeftNChars=\count307
+\FV@BreakSymbolIndentRight=\dimen163
+\FV@BreakSymbolIndentRightNChars=\count308
+\c@FancyVerbLineBreakLast=\count309
+\FV@LineBox=\box65
+\FV@LineIndentBox=\box66
+\c@FV@BreakBufferDepth=\count310
+\FV@LineWidth=\dimen164
+) (/home/leferre/.miktex/texmfs/install/tex/latex/xstring/xstring.sty (/home/leferre/.miktex/texmfs/install/tex/generic/xstring/xstring.tex
+\xs_counta=\count311
+\xs_countb=\count312
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+) (/home/leferre/.miktex/texmfs/install/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+ (/home/leferre/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty (/home/leferre/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+ (/home/leferre/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks21
+)))
+\pgfopts@list@add@a@toks=\toks22
+\pgfopts@list@add@b@toks=\toks23
+) (/home/leferre/.miktex/texmfs/install/tex/latex/newfloat/newfloat.sty
+Package: newfloat 2023/10/01 v1.2 Defining new floating environments (AR)
+Package newfloat Info: Unsupported document class, or \@chapter 
+(newfloat)             was already redefined by another package.
+Package newfloat Info: \@chapter = macro:[#1]#2->\algocf@original@chapter [#1]{#2}\addtocontents {loa}{\protect \addvspace {10\p@ }}.
+Package newfloat Info: \Hy@org@chapter = macro:[#1]#2->\NR@gettitle {#1}\NR@chapter [{#1}]{#2}.
+Package newfloat Info: \algocf@original@chapter = macro:->\def \Hy@next {\Hy@MakeCurrentHrefAuto {\Hy@chapapp *}\Hy@raisedlink {\hyper@anchorstart {\@currentHref }\hyper@anchorend }}\ifnum \c@secnumdepth >\m@ne \@ifundefined {if@mainmatter}\iftrue {\csname if@mainmatter\endcsname }\let \Hy@next \relax \fi \fi \Hy@next \Hy@org@chapter .
+) (/home/leferre/.miktex/texmfs/install/tex/latex/currfile/currfile.sty
+Package: currfile 2024/03/14 v1.0 Provides the file path elements of the current input file
+ (/home/leferre/.miktex/texmfs/install/tex/latex/filehook/filehook.sty
+Package: filehook 2022/10/25 v0.8b Hooks for input files
+ (/home/leferre/.miktex/texmfs/install/tex/latex/filehook/filehook-2020.sty
+Package: filehook-2020 2022/10/25 v0.8b Hooks for input files
+))
+\c@currfiledepth=\count313
+)
+\pytx@codefile=\write4
+\openout4 = `test.pytxcode'.
+
+\c@pytx@FancyVerbLineTemp=\count314
+\c@pytx@py@default@default=\count315
+\c@pytx@pycon@default@default=\count316
+\c@pytx@sympy@default@default=\count317
+\c@pytx@sympycon@default@default=\count318
+\c@pytx@pylab@default@default=\count319
+\c@pytx@pylabcon@default@default=\count320
+) (/home/leferre/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (/home/leferre/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (/home/leferre/.miktex/texmfs/install/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (/home/leferre/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count321
+\l__pdf_internal_box=\box67
+) (test.aux)
+\openout1 = `test.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+ (/home/leferre/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count322
+\scratchdimen=\dimen165
+\scratchbox=\box68
+\nofMPsegments=\count323
+\nofMParguments=\count324
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count325
+\MPscratchDim=\dimen166
+\MPnumerator=\count326
+\makeMPintoPDFobject=\count327
+\everyMPtoPDFconversion=\toks25
+) (/home/leferre/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/home/leferre/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring OFF on input line 11.
+ (test.out) (test.out)
+\@outlinefile=\write5
+\openout5 = `test.out'.
+
+Package newfloat Info: Trying Plan B...
+
+No file pythontex-files-test/test.pytxmcr.
+Run PythonTeX to create it.
+Package newfloat Info: New float `listing' with options `fileext=lopytx' on input line 11.
+\c@listing=\count328
+\newfloat@ftype=\count329
+Package newfloat Info: float type `listing'=8 on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 14.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+<stardle.png, id=40, 963.6pt x 485.815pt>
+File: stardle.png Graphic file (type png)
+<use stardle.png>
+Package pdftex.def Info: stardle.png  used on input line 46.
+(pdftex.def)             Requested size: 276.00105pt x 139.14812pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[1
+
+{/home/leferre/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (3.86171pt too wide) in paragraph at lines 63--65
+\OT1/cmr/m/n/10 La r^^Secup^^Seration des donn^^Sees est faite via le script Python Cre-ate-Ship-Database.py.
+ []
+
+
+
+[2 <./stardle.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 92--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--103
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 119.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 119.
+
+Overfull \hbox (6.2969pt too wide) in paragraph at lines 132--137
+\OT1/cmr/m/n/10 types comme des ar^etes par ex-em-ple (mais aussi leur r^ole, fab-ri-cant...). L'avantage
+ []
+
+
+
+[3]
+<graphe_type.png, id=71, 2171.7135pt x 2160.873pt>
+File: graphe_type.png Graphic file (type png)
+<use graphe_type.png>
+Package pdftex.def Info: graphe_type.png  used on input line 140.
+(pdftex.def)             Requested size: 345.0pt x 343.27383pt.
+
+
+[4 <./graphe_type.png>]
+
+[5] (test.aux)
+ ***********
+LaTeX2e <2024-11-01>
+L3 programming layer <2024-11-02>
+ ***********
+Package rerunfilecheck Info: File `test.out' has not changed.
+(rerunfilecheck)             Checksum: 10EA993352BD589B693B8B6DF8795A79;1493.
+ ) 
+Here is how much of TeX's memory you used:
+ 13337 strings out of 475585
+ 229554 string characters out of 5770207
+ 661034 words of memory out of 5000000
+ 36013 multiletter control sequences out of 15000+600000
+ 563173 words of font info for 53 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 79i,13n,79p,527b,683s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/leferre/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on test.pdf (5 pages, 4270577 bytes).
+PDF statistics:
+ 125 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+
