@@ -97,5 +97,4 @@ def stardle():
     else:
         print(f"Désolé, vous avez épuisé vos tentatives. Le vaisseau était: {ship_secret}")
         
-
-stardle()       
+       

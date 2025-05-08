@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.1)  6 MAY 2025 20:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.1)  8 MAY 2025 12:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -298,7 +298,31 @@ Package: filehook-2020 2022/10/25 v0.8b Hooks for input files
 \c@pytx@sympycon@default@default=\count318
 \c@pytx@pylab@default@default=\count319
 \c@pytx@pylabcon@default@default=\count320
-) (/home/leferre/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+) (/home/leferre/.miktex/texmfs/install/tex/latex/listings/listings.sty
+\lst@mode=\count321
+\lst@gtempboxa=\box67
+\lst@token=\toks24
+\lst@length=\count322
+\lst@currlwidth=\dimen165
+\lst@column=\count323
+\lst@pos=\count324
+\lst@lostspace=\dimen166
+\lst@width=\dimen167
+\lst@newlines=\count325
+\lst@lineno=\count326
+\lst@maxwidth=\dimen168
+ (/home/leferre/.miktex/texmfs/install/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+) (/home/leferre/.miktex/texmfs/install/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count327
+\lst@skipnumbers=\count328
+\lst@framebox=\box68
+) (/home/leferre/.miktex/texmfs/install/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+ (/home/leferre/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
  (/home/leferre/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
@@ -316,49 +340,49 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 ) (/home/leferre/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count321
-\l__pdf_internal_box=\box67
+\l__color_backend_stack_int=\count329
+\l__pdf_internal_box=\box69
 ) (test.aux)
 \openout1 = `test.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
  (/home/leferre/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count322
-\scratchdimen=\dimen165
-\scratchbox=\box68
-\nofMPsegments=\count323
-\nofMParguments=\count324
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count325
-\MPscratchDim=\dimen166
-\MPnumerator=\count326
-\makeMPintoPDFobject=\count327
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count330
+\scratchdimen=\dimen169
+\scratchbox=\box70
+\nofMPsegments=\count331
+\nofMParguments=\count332
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count333
+\MPscratchDim=\dimen170
+\MPnumerator=\count334
+\makeMPintoPDFobject=\count335
+\everyMPtoPDFconversion=\toks26
 ) (/home/leferre/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/home/leferre/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 11.
+Package hyperref Info: Link coloring OFF on input line 29.
  (test.out) (test.out)
 \@outlinefile=\write5
 \openout5 = `test.out'.
@@ -367,96 +391,121 @@ Package newfloat Info: Trying Plan B...
 
 No file pythontex-files-test/test.pytxmcr.
 Run PythonTeX to create it.
-Package newfloat Info: New float `listing' with options `fileext=lopytx' on input line 11.
-\c@listing=\count328
-\newfloat@ftype=\count329
-Package newfloat Info: float type `listing'=8 on input line 11.
+Package newfloat Info: New float `listing' with options `fileext=lopytx' on input line 29.
+\c@listing=\count336
+\newfloat@ftype=\count337
+Package newfloat Info: float type `listing'=8 on input line 29.
+(/home/leferre/.miktex/texmfs/install/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)
+\c@lstlisting=\count338
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 14.
+(Font)              <12> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
+(Font)              <8> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
+(Font)              <6> on input line 32.
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
-
-<stardle.png, id=40, 963.6pt x 485.815pt>
-File: stardle.png Graphic file (type png)
-<use stardle.png>
-Package pdftex.def Info: stardle.png  used on input line 46.
-(pdftex.def)             Requested size: 276.00105pt x 139.14812pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
 [1
 
 {/home/leferre/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (3.86171pt too wide) in paragraph at lines 63--65
+Overfull \hbox (3.86171pt too wide) in paragraph at lines 74--76
 \OT1/cmr/m/n/10 La r^^Secup^^Seration des donn^^Sees est faite via le script Python Cre-ate-Ship-Database.py.
  []
 
 
-
-[2 <./stardle.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 92--96
+Underfull \hbox (badness 10000) in paragraph at lines 103--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--103
+Underfull \hbox (badness 10000) in paragraph at lines 108--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--103
+Underfull \hbox (badness 10000) in paragraph at lines 108--114
 
  []
 
+
+
+[2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 119.
+(Font)              <7> on input line 126.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 119.
+(Font)              <5> on input line 126.
 
-Overfull \hbox (6.2969pt too wide) in paragraph at lines 132--137
-\OT1/cmr/m/n/10 types comme des ar^etes par ex-em-ple (mais aussi leur r^ole, fab-ri-cant...). L'avantage
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+
+Overfull \hbox (80.24629pt too wide) in paragraph at lines 168--168
+[]    \OT1/cmtt/m/n/10 Vous vous ^etes tromp^^Ses de vaisseau. Voici les r^^Sesultats de chaque variables :[] 
+ []
+
+
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 168--168
+[]     \OT1/cmtt/m/n/10 -pour la variable cargo_capacity ce n est pas la bonne r^^Seponse X[] 
+ []
+
+
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 168--168
+[]     \OT1/cmtt/m/n/10 -pour la variable manufacturer ce n est pas la bonne r^^Seponse X[] 
+ []
+
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 168--168
+[]     \OT1/cmtt/m/n/10 -pour la variable release_date ce n est pas la bonne r^^Seponse  X[] 
+ []
+
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 168--168
+[]     \OT1/cmtt/m/n/10 -pour la variable price_ingame ce n est pas la bonne r^^Seponse  X[] 
  []
 
 
 
 [3]
-<graphe_type.png, id=71, 2171.7135pt x 2160.873pt>
-File: graphe_type.png Graphic file (type png)
-<use graphe_type.png>
-Package pdftex.def Info: graphe_type.png  used on input line 140.
-(pdftex.def)             Requested size: 345.0pt x 343.27383pt.
+Overfull \hbox (0.89119pt too wide) in paragraph at lines 178--180
+[]\OT1/cmr/m/n/10 ON TRAITE L AN-NEE DE SOR-TIE ET LE NBRE D EQUIPAGE COMME
+ []
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 195.
+(/home/leferre/.miktex/texmfs/install/tex/latex/base/omscmr.fd
+File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 195.
 
 
-[4 <./graphe_type.png>]
-
-[5] (test.aux)
+[4] (test.aux)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
 Package rerunfilecheck Info: File `test.out' has not changed.
-(rerunfilecheck)             Checksum: 10EA993352BD589B693B8B6DF8795A79;1493.
+(rerunfilecheck)             Checksum: 8007B257C942192408341E8217A1112F;1524.
  ) 
 Here is how much of TeX's memory you used:
- 13337 strings out of 475585
- 229554 string characters out of 5770207
- 661034 words of memory out of 5000000
- 36013 multiletter control sequences out of 15000+600000
- 563173 words of font info for 53 fonts, out of 8000000 for 9000
+ 14721 strings out of 475585
+ 249954 string characters out of 5770207
+ 681750 words of memory out of 5000000
+ 37382 multiletter control sequences out of 15000+600000
+ 563532 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 79i,13n,79p,527b,683s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/leferre/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on test.pdf (5 pages, 4270577 bytes).
+ 79i,13n,79p,548b,612s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/leferre/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on test.pdf (4 pages, 148703 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 123 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

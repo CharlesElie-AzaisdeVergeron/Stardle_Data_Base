@@ -3,6 +3,24 @@
 \usepackage{hyperref}
 \usepackage[ruled,vlined]{algorithm2e}
 \usepackage{pythontex} 
+\usepackage{listings}
+\usepackage{xcolor}
+
+% Define a nice style for Python code
+\lstdefinestyle{pythonstyle}{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    commentstyle=\color{green!60!black},
+    keywordstyle=\color{blue},
+    stringstyle=\color{red},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    backgroundcolor=\color{gray!10},
+    frame=single
+}
+
+
 
 \title{Compte-rendu du projet d'analyse de données: applications au jeu Stardle}
 \author{Charles Azais de Vergeron et Octave Feuilland }
@@ -16,7 +34,7 @@
 \subsection{Présentation du jeu Stardle}
 
 Le jeu Stardle est un jeu en ligne (\href{https://stardle.net}{stardle.net}) basé sur le jeu Wordle / SUTO. 
-Le but est de deviner chaque jour un vaisseau choisi au hasard parmi une liste d'environ 200 éléments.
+Le but est de deviner chaque jour un vaisseau choisi au hasard parmi une liste  d'environ 200 éléments. 
 
 Chaque vaisseau est definit par deux types de caractéristiques: 
 \begin{itemize}
@@ -41,12 +59,6 @@ Chaque vaisseau est definit par deux types de caractéristiques:
 
 Voici un exemple de partie du jeu : \\
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.8\textwidth]{stardle.png}
-    \caption{Exemple de partie du jeu Stardle}
-    \label{fig:stardle}
-\end{figure}
 
 Nous avons 3 possibilités de résultats: Vrai, Faux ou Proche (uniquement pour les caractéristiques quantitatives).
 \subsection{Objectif du projet}
@@ -55,9 +67,8 @@ L'objectif de ce projet est d'analyser les données du jeu Stardle afin de crée
 un vaisseau pris au hasard dans la base de données en un minimum de tentatives et de déterminer une combinaison 
 d'essais de vaisseaux qui permet de minimiser le nombre de tentatives.
 
-Nous avons donc récupéré les données et recréé le jeu puis essayé de trouver un 
-algorithme optimal pour déterminer le vaisseau le plus efficacement possible.
-
+Nous avons donc récupérer les données et recréer le jeu puis essayer de trouver un 
+algorithme optimal pour déterminer le vaisseau le plus efficacement possible. 
 
 \section{Récupération des données}
 La récupération des données est faite via le script Python CreateShipDatabase.py. 
@@ -68,8 +79,8 @@ Le script se décompose en plusieurs étapes principales :
 
 \begin{enumerate}   
     \item \textbf{Collecte des données} \\
-    Nous utilisons l'API \verb|https://api.star-citizen.wiki/| pour obtenir la liste complète des 
-    vaisseaux.
+        Nous utilisation l'API \verb|https://api.star-citizen.wiki/| pour obtenir la liste complète des 
+        vaisseaux.
         Pour chaque vaisseau, le script récupère les données via l'API et 
         extrait toutes les caractéristiques -- dans la configuration "All" -- 
         et uniquement celles du jeu Stardle -- dans la configuration  "Stardle" --\\
@@ -89,9 +100,9 @@ Le script se décompose en plusieurs étapes principales :
 
 \section{Nettoyage et préparation des données}
 
-Pour ajouter de la complexité aux données d'origine, nous avons mélangé les deux bases de données.
-Stardle est la base du projet. Nous avons extrait de All les valeurs de scm, max, length, beam. Nous avons aussi 
-rajouté une colonne "price in game" qui correspond à la valeur du vaisseau dans le jeu.(via le site 
+Pour ajouter de la complexité aux données d'origine, nous avons mélangés les deux base de données.
+Stardle est la base du projet. Nous avons extrait de All les valeurs de scm,max, length, beam. Nous avons aussi 
+rajouté une colonne "price in game" qui correspond à la valeur du vaisseau dans le jeu (via le site 
 \href{https://www.erkul.games/live/calculator}{Erkul.com})\\
 
 Pour la gestion des valeurs manquantes, nous avons étudié les dependances entre les colonnes.
@@ -104,19 +115,15 @@ Nous avons donc appliqué l'algorithme suivant: \\
 \begin{algorithm}[H]
     \SetAlgoLined
     \KwResult{Colonne sans valeurs manquantes}
-    texte\\
-    \For{texte}{
-        Texte\;
-        \eIf{condition}{
-            texte\;
-            texte\;
+    groupby by status,type,manufacturer\;
+    \For{vaisseaux in names}{
+        \eIf{mean(groupby by status,type,manufacturer) $\neq$ Nan \textbf{and} price\_in\_game == 0}{
+            price\_in\_game[vaisseaux] = mean(groupby by status,type,manufacturer)\;
         }{
-            texte;
+            price\_in\_game[vaisseaux] = mean\;
         }
     }
-    texte\;
-    \caption{texte}
-    \end{algorithm}
+\end{algorithm}
 
 
 \section{Implementation du jeu}
@@ -127,36 +134,66 @@ lors de la saisie.
 Nous reproduisons la meme logique que le jeu original
 puis après nous avons à taper le nom du vaisseux. Ca affiche les résultats.
 
+Voici ce que donne le début du jeu : \\
+
+INSERT CODE 
+
+
+
+Il est possible de faire défiler les noms des 200 vaisseaux
+
+Ensuite, tout en bas, il y a une barre de recherche où l'on écrit le nom du vaisseau que nous voulons 
+proposer. 
+
+Voici le résultat que ça donne quand nous nous trompons de vaisseau :
+
+\begin{verbatim}
+    Vous vous êtes trompés de vaisseau. Voici les résultats de chaque variables :
+     -pour la variable cargo_capacity ce n est pas la bonne réponse X
+     -pour la variable mass ce n est pas la bonne réponse X
+     -pour la variable crew ce n est pas la bonne réponse X
+     -pour la variable manufacturer ce n est pas la bonne réponse X
+     -pour la variable type c est la bonne réponse V
+     -pour la variable status ce n'est pas la bonne réponse X
+     -pour la variable role c est la bonne réponse V
+     -pour la variable price ce n est pas la bonne réponse   X
+     -pour la variable release_date ce n est pas la bonne réponse  X
+     -pour la variable price_ingame ce n est pas la bonne réponse  X
+     -pour la variable scm ce n est pas la bonne réponse    X
+     -pour la variable max ce n est pas la bonne réponse    X
+     -pour la variable length ce n est pas la bonne réponse X
+     -pour la variable beam ce n est pas la bonne réponse   X
+     -pour la variable height ce n est pas la bonne réponse X
+
+\end{verbatim}
+
+Nous pouvons y constater que chaque caractéristique du vaisseau est comparée à celle du vaisseau mystère, pour donnée des indications.
+Dans le cas d'un succès, on félicite le joueur pour son résultat comme ci-dessous : 
+\begin{verbatim}
+    Bravo, vous avez trouvez le bon vaisseau!
+    Félicitations! Vous avez trouvé le vaisseau!    
+\end{verbatim}
+
+
+ON TRAITE L ANNEE DE SORTIE ET LE NBRE D EQUIPAGE COMME DU QUALITATIF PCQ C EST DES ENTIERS ET PAS LISSE DU TT 
+METTRE UN GRAPHIQUE QUI MONTRE QUE LE NOMBRE D EQUIPAGE ET LA DATE DE SORTIE VARIE PEU SUR TT LES DONNEES
 \section{Algorithme de jeu}
 
-En suivant les sujets abordés en cours, nous avons décidé d'aborder le problème par la théorie des graphes.
-Considérons les vaisseaux comme des nœuds, leurs types comme des arêtes par exemple (mais aussi leur rôle, fabricant...).
-L'avantage du type est qu'un même vaisseau peut en avoir deux, ce qui crée plus de connexions qu'avec 
-les fabricants par exemple.
-Voici un exemple de graphe : 
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=1\textwidth]{graphe_type.png}
-    \caption{Graphe des vaisseaux par type}
-    \label{fig:graph}
-\end{figure}
+Dans un premier temps, nous avons étudié les réparitions des vaisseaux entre differents critères qualitaitfs
+par des histogrammes et des graphes. Les histogrammes précisent la répartition des vaisseaux entre leurs roles, fabricants..
+alors que des graphes précise les relations entre eux.
 
 
-Nous étudions donc les vaisseaux du point de vue de la théorie des graphes sur les relations qualitatives 
-(fabricant, type, rôle, année d'apparition, en jeu ou non).
-Nous avons arbitrairement mis un poids de 1.0 à chaque différence qualitative pour pondérer les chemins 
-entre vaisseaux. Cela nous donne le csv \verb|path_history.csv|. Avec ce csv, nous pouvons déterminer les éléments 
-voisins et ainsi directement les sélectionner pour les prochaines étapes de l'algorithme.
 
-\subsection{Algorithme de Stardle}
+
+\subsection{Algorithme de récupération}
 \begin{algorithm}[H]
 \SetAlgoLined
-\KwData{base de données des vaisseaux}
-\KwResult{Vaisseau inconnu trouvé}
+\KwData{URL de l'API Star Citizen}
+\KwResult{Deux fichiers JSON (shipList.json et shipDB.json)}
 
-\;
-\;
+Initialiser ShipName = \{\} et ShipDB = \{\}\;
+Requête GET à l'API pour obtenir la liste des vaisseaux\;
 \For{chaque vaisseau dans la liste}{
     Requête GET pour obtenir les détails du vaisseau\;
     \eIf{DataBaseType == "Stardle"}{
