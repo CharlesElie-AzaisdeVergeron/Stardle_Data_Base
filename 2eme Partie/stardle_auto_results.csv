@@ -1,0 +1,1001 @@
+iteration,nb_attempts,ships_used,secret_ship,path
+1,2,"['Cyclone RC', 'G12r']",G12r,Cyclone RC -> G12r
+2,2,"['Cyclone AA', 'Mule']",Mule,Cyclone AA -> Mule
+3,2,"['Valkyrie', 'Odyssey']",Odyssey,Valkyrie -> Odyssey
+4,2,"['Idris-P', 'Galaxy']",Galaxy,Idris-P -> Galaxy
+5,2,"['Reliant Sen', 'Cutter']",Cutter,Reliant Sen -> Cutter
+6,2,"['M50', 'Defender']",Defender,M50 -> Defender
+7,2,"['Terrapin Medic', 'A2 Hercules']",A2 Hercules,Terrapin Medic -> A2 Hercules
+8,2,"['Scythe', 'C8X Pisces Expedition']",C8X Pisces Expedition,Scythe -> C8X Pisces Expedition
+9,2,"['Reliant Sen', 'Retaliator']",Retaliator,Reliant Sen -> Retaliator
+10,2,"['Idris-M', 'Legionnaire']",Legionnaire,Idris-M -> Legionnaire
+11,2,"['Razor', 'Prowler']",Prowler,Razor -> Prowler
+12,2,"['RAFT', 'Talon']",Talon,RAFT -> Talon
+13,2,"['Sabre Firebird', 'Terrapin']",Terrapin,Sabre Firebird -> Terrapin
+14,3,"['Cyclone RN', 'Aurora LN', 'Aurora MR']",Aurora MR,Cyclone RN -> Aurora LN -> Aurora MR
+15,2,"['Mustang Delta', 'Freelancer MIS']",Freelancer MIS,Mustang Delta -> Freelancer MIS
+16,2,"['Freelancer MAX', '350r']",350r,Freelancer MAX -> 350r
+17,2,"['Nomad', 'Aurora ES']",Aurora ES,Nomad -> Aurora ES
+18,2,"['Cutlass Black', 'Carrack']",Carrack,Cutlass Black -> Carrack
+19,2,"['Freelancer MAX', 'Guardian']",Guardian,Freelancer MAX -> Guardian
+20,2,"['Sabre Firebird', 'C8X Pisces Expedition']",C8X Pisces Expedition,Sabre Firebird -> C8X Pisces Expedition
+21,2,"['Cutlass Blue', 'Cutlass Steel']",Cutlass Steel,Cutlass Blue -> Cutlass Steel
+22,2,"['Cyclone RN', 'Prospector']",Prospector,Cyclone RN -> Prospector
+23,2,"['Kraken', 'Avenger Stalker']",Avenger Stalker,Kraken -> Avenger Stalker
+24,2,"['Avenger Warlock', 'Legionnaire']",Legionnaire,Avenger Warlock -> Legionnaire
+25,2,"['F7A Hornet Mk II', 'Reclaimer']",Reclaimer,F7A Hornet Mk II -> Reclaimer
+26,2,"['Ursa', 'Vanguard Harbinger']",Vanguard Harbinger,Ursa -> Vanguard Harbinger
+27,2,"['Freelancer MIS', 'Dragonfly']",Dragonfly,Freelancer MIS -> Dragonfly
+28,2,"['PTV', 'MPUV Tractor']",MPUV Tractor,PTV -> MPUV Tractor
+29,2,"['F7A Hornet Mk II', 'Caterpillar']",Caterpillar,F7A Hornet Mk II -> Caterpillar
+30,2,"['Odyssey', '85X']",85X,Odyssey -> 85X
+31,2,"['Buccaneer', 'F7C-R Hornet Tracker']",F7C-R Hornet Tracker,Buccaneer -> F7C-R Hornet Tracker
+32,2,"['Freelancer DUR', 'F7C-S Hornet Ghost Mk II']",F7C-S Hornet Ghost Mk II,Freelancer DUR -> F7C-S Hornet Ghost Mk II
+33,2,"['F7C-S Hornet Ghost Mk II', 'Ironclad']",Ironclad,F7C-S Hornet Ghost Mk II -> Ironclad
+34,2,"['Redeemer', 'Freelancer DUR']",Freelancer DUR,Redeemer -> Freelancer DUR
+35,2,"['Razor EX', '85X']",85X,Razor EX -> 85X
+36,2,"['Zeus CL Mk II', 'Liberator']",Liberator,Zeus CL Mk II -> Liberator
+37,2,"['Mustang Alpha', 'Cutter Scout']",Cutter Scout,Mustang Alpha -> Cutter Scout
+38,2,"['F7C Hornet Mk II', 'C8 Pisces']",C8 Pisces,F7C Hornet Mk II -> C8 Pisces
+39,2,"['CSV-SM', 'Kraken']",Kraken,CSV-SM -> Kraken
+40,2,"['P-52 Merlin', 'F7C-R Hornet Tracker Mk II']",F7C-R Hornet Tracker Mk II,P-52 Merlin -> F7C-R Hornet Tracker Mk II
+41,2,"['Cutter Rambler', 'Terrapin']",Terrapin,Cutter Rambler -> Terrapin
+42,2,"['Kraken Privateer', 'Paladin']",Paladin,Kraken Privateer -> Paladin
+43,2,"['Defender', 'Eclipse']",Eclipse,Defender -> Eclipse
+44,2,"['Kraken', 'MOLE']",MOLE,Kraken -> MOLE
+45,2,"['HoverQuad', 'Lynx']",Lynx,HoverQuad -> Lynx
+46,2,"['Merchantman', 'Arrastra']",Arrastra,Merchantman -> Arrastra
+47,2,"['G12', 'Aurora ES']",Aurora ES,G12 -> Aurora ES
+48,2,"['Mustang Delta', 'F7A Hornet Mk II']",F7A Hornet Mk II,Mustang Delta -> F7A Hornet Mk II
+49,2,"['Carrack', 'Cutlass Blue']",Cutlass Blue,Carrack -> Cutlass Blue
+50,2,"['Hull E', 'Pioneer']",Pioneer,Hull E -> Pioneer
+51,2,"['Hull D', 'Mantis']",Mantis,Hull D -> Mantis
+52,2,"['Expanse', 'Mustang Gamma']",Mustang Gamma,Expanse -> Mustang Gamma
+53,2,"['Cutlass Red', 'Arrow']",Arrow,Cutlass Red -> Arrow
+54,2,"['Reliant Mako', 'Cutlass Black']",Cutlass Black,Reliant Mako -> Cutlass Black
+55,2,"['Cutlass Blue', 'Ranger TR']",Ranger TR,Cutlass Blue -> Ranger TR
+56,2,"['Vulcan', 'Ursa']",Ursa,Vulcan -> Ursa
+57,3,"['MPUV Tractor', '350r', 'M50']",M50,MPUV Tractor -> 350r -> M50
+58,3,"['X1 Velocity', 'Idris-M', 'Idris-P']",Idris-P,X1 Velocity -> Idris-M -> Idris-P
+59,2,"['Mustang Omega', 'X1 Force']",X1 Force,Mustang Omega -> X1 Force
+60,2,"['Polaris', 'Nox']",Nox,Polaris -> Nox
+61,2,"['Hull C', 'Ironclad Assault']",Ironclad Assault,Hull C -> Ironclad Assault
+62,2,"['Fury MX', 'Freelancer MAX']",Freelancer MAX,Fury MX -> Freelancer MAX
+63,2,"['F7A Hornet Mk II', 'Gladius']",Gladius,F7A Hornet Mk II -> Gladius
+64,2,"['Intrepid', '600i Explorer']",600i Explorer,Intrepid -> 600i Explorer
+65,2,"['Reliant Mako', '350r']",350r,Reliant Mako -> 350r
+66,2,"['Herald', 'Starlancer MAX']",Starlancer MAX,Herald -> Starlancer MAX
+67,2,"['890 Jump', 'Sabre Raven']",Sabre Raven,890 Jump -> Sabre Raven
+68,2,"['Carrack', 'Scythe']",Scythe,Carrack -> Scythe
+69,2,"['Idris-M', 'ROC']",ROC,Idris-M -> ROC
+70,2,"['Constellation Aquila', 'Ballista']",Ballista,Constellation Aquila -> Ballista
+71,2,"['CSV-SM', 'X1']",X1,CSV-SM -> X1
+72,2,"['Sabre Firebird', 'Khartu-Al']",Khartu-Al,Sabre Firebird -> Khartu-Al
+73,2,"['Fury', 'Vulcan']",Vulcan,Fury -> Vulcan
+74,2,"['C8X Pisces Expedition', 'Valkyrie']",Valkyrie,C8X Pisces Expedition -> Valkyrie
+75,2,"['Vanguard Harbinger', '135c']",135c,Vanguard Harbinger -> 135c
+76,2,"['Kraken', 'Vanguard Harbinger']",Vanguard Harbinger,Kraken -> Vanguard Harbinger
+77,2,"['M2 Hercules', 'F7C-R Hornet Tracker']",F7C-R Hornet Tracker,M2 Hercules -> F7C-R Hornet Tracker
+78,2,"['Constellation Taurus', 'Reclaimer']",Reclaimer,Constellation Taurus -> Reclaimer
+79,2,"['Cyclone TR', 'Gladius']",Gladius,Cyclone TR -> Gladius
+80,2,"['C2 Hercules', 'Pioneer']",Pioneer,C2 Hercules -> Pioneer
+81,2,"['Paladin', 'Vanguard Hoplite']",Vanguard Hoplite,Paladin -> Vanguard Hoplite
+82,2,"['400i', 'F8C Lightning']",F8C Lightning,400i -> F8C Lightning
+83,2,"['315p', 'Terrapin Medic']",Terrapin Medic,315p -> Terrapin Medic
+84,2,"['Eclipse', 'Pulse LX']",Pulse LX,Eclipse -> Pulse LX
+85,2,"['Hull D', 'Freelancer MAX']",Freelancer MAX,Hull D -> Freelancer MAX
+86,2,"['Railen', '300i']",300i,Railen -> 300i
+87,2,"['Hull A', 'Talon Shrike']",Talon Shrike,Hull A -> Talon Shrike
+88,2,"['Pulse LX', 'HoverQuad']",HoverQuad,Pulse LX -> HoverQuad
+89,2,"['Starlancer TAC', 'Avenger Titan']",Avenger Titan,Starlancer TAC -> Avenger Titan
+90,2,"['Talon Shrike', '135c']",135c,Talon Shrike -> 135c
+91,2,"['400i', 'F7C-S Hornet Ghost Mk II']",F7C-S Hornet Ghost Mk II,400i -> F7C-S Hornet Ghost Mk II
+92,2,"['Scorpius', 'C8 Pisces']",C8 Pisces,Scorpius -> C8 Pisces
+93,2,"['Zeus ES Mk II', 'Aurora ES']",Aurora ES,Zeus ES Mk II -> Aurora ES
+94,2,"['Ursa Medivac', '400i']",400i,Ursa Medivac -> 400i
+95,2,"['Mercury', 'SRV']",SRV,Mercury -> SRV
+96,2,"['F7C-R Hornet Tracker Mk II', 'F7A Hornet Mk II']",F7A Hornet Mk II,F7C-R Hornet Tracker Mk II -> F7A Hornet Mk II
+97,2,"['300i', '85X']",85X,300i -> 85X
+98,2,"['Freelancer', 'Ironclad']",Ironclad,Freelancer -> Ironclad
+99,2,"['Storm AA', 'Ares Star Fighter Inferno']",Ares Star Fighter Inferno,Storm AA -> Ares Star Fighter Inferno
+100,2,"['Mustang Omega', 'Ballista']",Ballista,Mustang Omega -> Ballista
+101,2,"['Ursa', 'E1 Spirit']",E1 Spirit,Ursa -> E1 Spirit
+102,2,"['Guardian QI', 'Reliant Kore']",Reliant Kore,Guardian QI -> Reliant Kore
+103,2,"['Sabre Firebird', 'Nova']",Nova,Sabre Firebird -> Nova
+104,2,"['Freelancer DUR', 'Pioneer']",Pioneer,Freelancer DUR -> Pioneer
+105,2,"['P-72 Archimedes', ""San'tok.yāi""]",San'tok.yāi,P-72 Archimedes -> San'tok.yāi
+106,3,"['Vanguard Hoplite', 'Apollo Medivac', 'Apollo Triage']",Apollo Triage,Vanguard Hoplite -> Apollo Medivac -> Apollo Triage
+107,2,"['F7C Hornet Mk II', 'STV']",STV,F7C Hornet Mk II -> STV
+108,2,"['Ares Star Fighter Inferno', 'Avenger Stalker']",Avenger Stalker,Ares Star Fighter Inferno -> Avenger Stalker
+109,2,"['Hull D', 'Cutlass Steel']",Cutlass Steel,Hull D -> Cutlass Steel
+110,2,"['Sabre Raven', 'Liberator']",Liberator,Sabre Raven -> Liberator
+111,2,"['Redeemer', 'Sabre Raven']",Sabre Raven,Redeemer -> Sabre Raven
+112,2,"['Storm', ""San'tok.yāi""]",San'tok.yāi,Storm -> San'tok.yāi
+113,2,"['MPUV Cargo', 'CSV-SM']",CSV-SM,MPUV Cargo -> CSV-SM
+114,3,"['C8R Pisces', '350r', 'M50']",M50,C8R Pisces -> 350r -> M50
+115,2,"['E1 Spirit', ""San'tok.yāi""]",San'tok.yāi,E1 Spirit -> San'tok.yāi
+116,2,"['Mule', 'Nautilus']",Nautilus,Mule -> Nautilus
+117,2,"['Javelin', 'Hull A']",Hull A,Javelin -> Hull A
+118,2,"['Corsair', 'Avenger Titan']",Avenger Titan,Corsair -> Avenger Titan
+119,3,"['Reliant Tana', 'Hull D', 'Hull E']",Hull E,Reliant Tana -> Hull D -> Hull E
+120,2,"['Cyclone', 'Reclaimer']",Reclaimer,Cyclone -> Reclaimer
+121,2,"['Endeavor', 'Ares Star Fighter Inferno']",Ares Star Fighter Inferno,Endeavor -> Ares Star Fighter Inferno
+122,2,"['A2 Hercules', 'Zeus CL Mk II']",Zeus CL Mk II,A2 Hercules -> Zeus CL Mk II
+123,2,"['Constellation Aquila', 'Ranger TR']",Ranger TR,Constellation Aquila -> Ranger TR
+124,2,"['C2 Hercules', 'Herald']",Herald,C2 Hercules -> Herald
+125,3,"['A1 Spirit', 'Aurora LN', 'Aurora MR']",Aurora MR,A1 Spirit -> Aurora LN -> Aurora MR
+126,2,"['P-52 Merlin', ""San'tok.yāi""]",San'tok.yāi,P-52 Merlin -> San'tok.yāi
+127,7,"['Pulse LX', 'Zeus ES Mk II', 'Kraken Privateer', 'ROC', 'F7A Hornet Mk II', 'Constellation Taurus']",Constellation Taurus,Pulse LX -> Zeus ES Mk II -> Kraken Privateer -> ROC -> F7A Hornet Mk II -> Constellation Taurus
+128,2,"['Glaive', 'Lynx']",Lynx,Glaive -> Lynx
+129,2,"['C2 Hercules', 'Cutlass Blue']",Cutlass Blue,C2 Hercules -> Cutlass Blue
+130,2,"['Mule', 'Vanguard Sentinel']",Vanguard Sentinel,Mule -> Vanguard Sentinel
+131,2,"['Liberator', 'Talon Shrike']",Talon Shrike,Liberator -> Talon Shrike
+132,2,"['Constellation Andromeda', 'Perseus']",Perseus,Constellation Andromeda -> Perseus
+133,2,"['Nautilus', 'Talon']",Talon,Nautilus -> Talon
+134,2,"['Redeemer', '85X']",85X,Redeemer -> 85X
+135,2,"['Starlancer TAC', 'Constellation Phoenix']",Constellation Phoenix,Starlancer TAC -> Constellation Phoenix
+136,2,"['Starlancer TAC', 'Merchantman']",Merchantman,Starlancer TAC -> Merchantman
+137,2,"['Valkyrie', 'Prowler']",Prowler,Valkyrie -> Prowler
+138,2,"['100i', 'Talon Shrike']",Talon Shrike,100i -> Talon Shrike
+139,2,"['Apollo Triage', 'Ranger TR']",Ranger TR,Apollo Triage -> Ranger TR
+140,2,"['MPUV Personnel', 'Freelancer DUR']",Freelancer DUR,MPUV Personnel -> Freelancer DUR
+141,2,"['Starlancer TAC', 'F7C-S Hornet Ghost']",F7C-S Hornet Ghost,Starlancer TAC -> F7C-S Hornet Ghost
+142,2,"['Blade', '325a']",325a,Blade -> 325a
+143,2,"['Constellation Phoenix', 'Valkyrie']",Valkyrie,Constellation Phoenix -> Valkyrie
+144,2,"['Vanguard Sentinel', 'Mercury']",Mercury,Vanguard Sentinel -> Mercury
+145,2,"['Guardian QI', 'Khartu-Al']",Khartu-Al,Guardian QI -> Khartu-Al
+146,2,"['M50', 'Liberator']",Liberator,M50 -> Liberator
+147,2,"['Legionnaire', 'Hull A']",Hull A,Legionnaire -> Hull A
+148,2,"['Hull B', 'Hull D']",Hull D,Hull B -> Hull D
+149,2,"['Avenger Warlock', 'E1 Spirit']",E1 Spirit,Avenger Warlock -> E1 Spirit
+150,2,"['Mustang Delta', 'Hull D']",Hull D,Mustang Delta -> Hull D
+151,2,"['Odyssey', 'Herald']",Herald,Odyssey -> Herald
+152,2,"['MPUV Cargo', 'Starfarer']",Starfarer,MPUV Cargo -> Starfarer
+153,2,"['E1 Spirit', 'C1 Spirit']",C1 Spirit,E1 Spirit -> C1 Spirit
+154,2,"['Lynx', 'HoverQuad']",HoverQuad,Lynx -> HoverQuad
+155,2,"['F7C-M Super Hornet', 'Hull D']",Hull D,F7C-M Super Hornet -> Hull D
+156,2,"['Ranger TR', 'Aurora ES']",Aurora ES,Ranger TR -> Aurora ES
+157,2,"['Intrepid', 'G12a']",G12a,Intrepid -> G12a
+158,2,"['Liberator', 'Ironclad']",Ironclad,Liberator -> Ironclad
+159,2,"['Avenger Warlock', '325a']",325a,Avenger Warlock -> 325a
+160,2,"['CSV-SM', 'Endeavor']",Endeavor,CSV-SM -> Endeavor
+161,2,"['Reliant Sen', 'RAFT']",RAFT,Reliant Sen -> RAFT
+162,2,"['Pulse', 'Ares Star Fighter Inferno']",Ares Star Fighter Inferno,Pulse -> Ares Star Fighter Inferno
+163,2,"['P-52 Merlin', 'Ares Star Fighter Inferno']",Ares Star Fighter Inferno,P-52 Merlin -> Ares Star Fighter Inferno
+164,2,"['Constellation Taurus', 'Cutter']",Cutter,Constellation Taurus -> Cutter
+165,2,"['Vanguard Sentinel', 'Railen']",Railen,Vanguard Sentinel -> Railen
+166,2,"['RAFT', 'Cyclone']",Cyclone,RAFT -> Cyclone
+167,2,"['Glaive', 'Razor']",Razor,Glaive -> Razor
+168,1,['Starfarer'],Starfarer,Starfarer
+169,2,"['Razor', 'STV']",STV,Razor -> STV
+170,3,"['Zeus MR Mk II', 'Fury', 'Fury MX']",Fury MX,Zeus MR Mk II -> Fury -> Fury MX
+171,2,"['Railen', 'MPUV Personnel']",MPUV Personnel,Railen -> MPUV Personnel
+172,2,"['600i Touring', 'Vanguard Hoplite']",Vanguard Hoplite,600i Touring -> Vanguard Hoplite
+173,2,"['Sabre Raven', 'Constellation Phoenix']",Constellation Phoenix,Sabre Raven -> Constellation Phoenix
+174,2,"['P-52 Merlin', 'Aurora LX']",Aurora LX,P-52 Merlin -> Aurora LX
+175,2,"['M50', 'Aurora LX']",Aurora LX,M50 -> Aurora LX
+176,2,"['Arrastra', 'Hull A']",Hull A,Arrastra -> Hull A
+177,3,"['CSV-SM', 'Mustang Gamma', 'Mustang Omega']",Mustang Omega,CSV-SM -> Mustang Gamma -> Mustang Omega
+178,2,"['Sabre Firebird', 'Scorpius Antares']",Scorpius Antares,Sabre Firebird -> Scorpius Antares
+179,3,"['Razor EX', '350r', 'M50']",M50,Razor EX -> 350r -> M50
+180,3,"['P-52 Merlin', 'Fury', 'Fury MX']",Fury MX,P-52 Merlin -> Fury -> Fury MX
+181,2,"['Gladius', 'MPUV Cargo']",MPUV Cargo,Gladius -> MPUV Cargo
+182,2,"['Guardian', 'Reliant Mako']",Reliant Mako,Guardian -> Reliant Mako
+183,3,"[""San'tok.yāi"", 'Fury', 'Fury MX']",Fury MX,San'tok.yāi -> Fury -> Fury MX
+184,2,"['Avenger Warlock', 'Carrack']",Carrack,Avenger Warlock -> Carrack
+185,7,"['Cutter Scout', 'Razor EX', 'Caterpillar', 'A1 Spirit', 'Reliant Sen', 'Cyclone MT']",Cyclone MT,Cutter Scout -> Razor EX -> Caterpillar -> A1 Spirit -> Reliant Sen -> Cyclone MT
+186,2,"['Nova', 'Odyssey']",Odyssey,Nova -> Odyssey
+187,2,"['Idris-M', 'Liberator']",Liberator,Idris-M -> Liberator
+188,3,"['Hull C', 'Kraken', 'Kraken Privateer']",Kraken Privateer,Hull C -> Kraken -> Kraken Privateer
+189,2,"['Talon', 'C8 Pisces']",C8 Pisces,Talon -> C8 Pisces
+190,2,"['Guardian', 'Pioneer']",Pioneer,Guardian -> Pioneer
+191,2,"['125a', 'Razor EX']",Razor EX,125a -> Razor EX
+192,2,"['Reliant Sen', 'Razor EX']",Razor EX,Reliant Sen -> Razor EX
+193,2,"['Hawk', '85X']",85X,Hawk -> 85X
+194,2,"['Hull D', '600i Explorer']",600i Explorer,Hull D -> 600i Explorer
+195,2,"['Reliant Mako', 'C1 Spirit']",C1 Spirit,Reliant Mako -> C1 Spirit
+196,2,"['Zeus ES Mk II', 'Nox']",Nox,Zeus ES Mk II -> Nox
+197,2,"['Aurora LX', 'A1 Spirit']",A1 Spirit,Aurora LX -> A1 Spirit
+198,2,"['Aurora LN', 'X1 Force']",X1 Force,Aurora LN -> X1 Force
+199,2,"['F7C Hornet Mk I', 'Aurora ES']",Aurora ES,F7C Hornet Mk I -> Aurora ES
+200,2,"['Nautilus', 'Ballista']",Ballista,Nautilus -> Ballista
+201,2,"['350r', 'F7C-R Hornet Tracker']",F7C-R Hornet Tracker,350r -> F7C-R Hornet Tracker
+202,2,"['315p', 'Pioneer']",Pioneer,315p -> Pioneer
+203,2,"['Nox', 'Reliant Kore']",Reliant Kore,Nox -> Reliant Kore
+204,2,"['325a', 'X1 Velocity']",X1 Velocity,325a -> X1 Velocity
+205,2,"['MPUV Personnel', 'Prowler']",Prowler,MPUV Personnel -> Prowler
+206,2,"['Pulse LX', 'STV']",STV,Pulse LX -> STV
+207,2,"['PTV', 'C8 Pisces']",C8 Pisces,PTV -> C8 Pisces
+208,2,"['A2 Hercules', 'X1']",X1,A2 Hercules -> X1
+209,3,"['Avenger Stalker', 'Arrow', 'Hawk']",Hawk,Avenger Stalker -> Arrow -> Hawk
+210,2,"['Razor LX', 'X1']",X1,Razor LX -> X1
+211,2,"['Starlancer MAX', 'Sabre Firebird']",Sabre Firebird,Starlancer MAX -> Sabre Firebird
+212,2,"['Nautilus', 'Cutter']",Cutter,Nautilus -> Cutter
+213,2,"['A2 Hercules', 'Cyclone RC']",Cyclone RC,A2 Hercules -> Cyclone RC
+214,2,"['Apollo Medivac', 'Cutter Scout']",Cutter Scout,Apollo Medivac -> Cutter Scout
+215,2,"['Galaxy', 'ATLS']",ATLS,Galaxy -> ATLS
+216,2,"['Terrapin Medic', '300i']",300i,Terrapin Medic -> 300i
+217,2,"['Zeus ES Mk II', 'Khartu-Al']",Khartu-Al,Zeus ES Mk II -> Khartu-Al
+218,2,"['Razor LX', 'RAFT']",RAFT,Razor LX -> RAFT
+219,2,"['600i Explorer', 'MPUV Tractor']",MPUV Tractor,600i Explorer -> MPUV Tractor
+220,3,"['ROC', 'Apollo Medivac', 'Apollo Triage']",Apollo Triage,ROC -> Apollo Medivac -> Apollo Triage
+221,2,"['Polaris', 'G12']",G12,Polaris -> G12
+222,2,"['Pulse LX', '325a']",325a,Pulse LX -> 325a
+223,2,"['Redeemer', 'C8 Pisces']",C8 Pisces,Redeemer -> C8 Pisces
+224,2,"['Razor', 'Buccaneer']",Buccaneer,Razor -> Buccaneer
+225,2,"['125a', 'Railen']",Railen,125a -> Railen
+226,3,"['Aurora LN', 'Ursa', 'Ursa Medivac']",Ursa Medivac,Aurora LN -> Ursa -> Ursa Medivac
+227,2,"['Mantis', 'F7C Hornet Mk I']",F7C Hornet Mk I,Mantis -> F7C Hornet Mk I
+228,2,"['Endeavor', 'Gladiator']",Gladiator,Endeavor -> Gladiator
+229,2,"['Aurora CL', 'Aurora LX']",Aurora LX,Aurora CL -> Aurora LX
+230,3,"['F7A Hornet Mk II', 'Kraken', 'Kraken Privateer']",Kraken Privateer,F7A Hornet Mk II -> Kraken -> Kraken Privateer
+231,2,"['Hawk', 'Aurora LN']",Aurora LN,Hawk -> Aurora LN
+232,2,"['Mantis', 'Pulse']",Pulse,Mantis -> Pulse
+233,2,"['Arrastra', 'Hull B']",Hull B,Arrastra -> Hull B
+234,2,"['Mustang Beta', 'Cyclone RC']",Cyclone RC,Mustang Beta -> Cyclone RC
+235,2,"['Prowler', 'ROC']",ROC,Prowler -> ROC
+236,2,"['F7C-R Hornet Tracker', 'Cutlass Red']",Cutlass Red,F7C-R Hornet Tracker -> Cutlass Red
+237,2,"['Constellation Phoenix', 'Caterpillar']",Caterpillar,Constellation Phoenix -> Caterpillar
+238,2,"['P-52 Merlin', 'CSV-SM']",CSV-SM,P-52 Merlin -> CSV-SM
+239,2,"['Hull E', 'A1 Spirit']",A1 Spirit,Hull E -> A1 Spirit
+240,2,"['Sabre Firebird', 'Crucible']",Crucible,Sabre Firebird -> Crucible
+241,2,"['Cyclone RC', ""San'tok.yāi""]",San'tok.yāi,Cyclone RC -> San'tok.yāi
+242,2,"['Fury MX', 'Cutlass Steel']",Cutlass Steel,Fury MX -> Cutlass Steel
+243,2,"['Lynx', 'Glaive']",Glaive,Lynx -> Glaive
+244,2,"['Guardian QI', 'Pulse LX']",Pulse LX,Guardian QI -> Pulse LX
+245,2,"['Idris-M', 'Hull D']",Hull D,Idris-M -> Hull D
+246,2,"['Cutlass Steel', 'Vanguard Warden']",Vanguard Warden,Cutlass Steel -> Vanguard Warden
+247,2,"['Mantis', 'Legionnaire']",Legionnaire,Mantis -> Legionnaire
+248,2,"['Mule', 'SRV']",SRV,Mule -> SRV
+249,2,"['Railen', 'Orion']",Orion,Railen -> Orion
+250,2,"['Zeus MR Mk II', 'Hull D']",Hull D,Zeus MR Mk II -> Hull D
+251,2,"['Reclaimer', 'MOLE']",MOLE,Reclaimer -> MOLE
+252,2,"['Hull E', 'Razor EX']",Razor EX,Hull E -> Razor EX
+253,2,"['Freelancer', 'Scythe']",Scythe,Freelancer -> Scythe
+254,2,"['Odyssey', 'Dragonfly']",Dragonfly,Odyssey -> Dragonfly
+255,2,"['Zeus MR Mk II', 'Arrow']",Arrow,Zeus MR Mk II -> Arrow
+256,3,"['400i', 'Fury', 'Fury MX']",Fury MX,400i -> Fury -> Fury MX
+257,2,"['Cutter Scout', 'Pulse LX']",Pulse LX,Cutter Scout -> Pulse LX
+258,2,"['Reliant Tana', 'Talon Shrike']",Talon Shrike,Reliant Tana -> Talon Shrike
+259,2,"['Defender', 'ATLS']",ATLS,Defender -> ATLS
+260,2,"['Pioneer', 'Lynx']",Lynx,Pioneer -> Lynx
+261,2,"['F7C-R Hornet Tracker', 'Reliant Tana']",Reliant Tana,F7C-R Hornet Tracker -> Reliant Tana
+262,2,"['Galaxy', 'Mercury']",Mercury,Galaxy -> Mercury
+263,2,"['P-72 Archimedes', 'Ares Star Fighter Inferno']",Ares Star Fighter Inferno,P-72 Archimedes -> Ares Star Fighter Inferno
+264,2,"['Hull B', 'Starfarer Gemini']",Starfarer Gemini,Hull B -> Starfarer Gemini
+265,2,"['Freelancer MIS', 'Merchantman']",Merchantman,Freelancer MIS -> Merchantman
+266,3,"['Hull B', 'Arrow', 'Hawk']",Hawk,Hull B -> Arrow -> Hawk
+267,2,"['Storm AA', 'Cutlass Blue']",Cutlass Blue,Storm AA -> Cutlass Blue
+268,2,"['F7C-S Hornet Ghost Mk II', 'G12r']",G12r,F7C-S Hornet Ghost Mk II -> G12r
+269,2,"['Legionnaire', 'Nomad']",Nomad,Legionnaire -> Nomad
+270,2,"['Avenger Warlock', 'Cyclone RC']",Cyclone RC,Avenger Warlock -> Cyclone RC
+271,2,"['Ballista', 'Ironclad Assault']",Ironclad Assault,Ballista -> Ironclad Assault
+272,3,"['Cutter', 'Ursa', 'Ursa Medivac']",Ursa Medivac,Cutter -> Ursa -> Ursa Medivac
+273,2,"['Ranger TR', 'Ranger RC']",Ranger RC,Ranger TR -> Ranger RC
+274,2,"['Cutlass Black', 'Defender']",Defender,Cutlass Black -> Defender
+275,2,"['100i', 'G12']",G12,100i -> G12
+276,3,"['Hull D', 'Aurora LN', 'Aurora MR']",Aurora MR,Hull D -> Aurora LN -> Aurora MR
+277,2,"['C2 Hercules', 'F7C-S Hornet Ghost Mk II']",F7C-S Hornet Ghost Mk II,C2 Hercules -> F7C-S Hornet Ghost Mk II
+278,2,"['315p', 'STV']",STV,315p -> STV
+279,2,"['Cyclone MT', 'Zeus CL Mk II']",Zeus CL Mk II,Cyclone MT -> Zeus CL Mk II
+280,2,"['Corsair', 'F7C Hornet Mk I']",F7C Hornet Mk I,Corsair -> F7C Hornet Mk I
+281,2,"['Reliant Mako', ""San'tok.yāi""]",San'tok.yāi,Reliant Mako -> San'tok.yāi
+282,2,"['X1', 'Ranger CV']",Ranger CV,X1 -> Ranger CV
+283,2,"['600i Explorer', 'Cutlass Blue']",Cutlass Blue,600i Explorer -> Cutlass Blue
+284,3,"['Cutlass Steel', 'Ursa', 'Ursa Medivac']",Ursa Medivac,Cutlass Steel -> Ursa -> Ursa Medivac
+285,2,"['Prospector', 'Mercury']",Mercury,Prospector -> Mercury
+286,3,"['Liberator', '350r', 'M50']",M50,Liberator -> 350r -> M50
+287,2,"['Reclaimer', 'Polaris']",Polaris,Reclaimer -> Polaris
+288,2,"['F7C-R Hornet Tracker Mk II', 'ATLS']",ATLS,F7C-R Hornet Tracker Mk II -> ATLS
+289,2,"[""San'tok.yāi"", 'Aurora LN']",Aurora LN,San'tok.yāi -> Aurora LN
+290,2,"['Cyclone TR', 'Dragonfly']",Dragonfly,Cyclone TR -> Dragonfly
+291,2,"['Railen', 'Vulcan']",Vulcan,Railen -> Vulcan
+292,3,"['Odyssey', 'Ursa', 'Ursa Medivac']",Ursa Medivac,Odyssey -> Ursa -> Ursa Medivac
+293,2,"['600i Explorer', 'Prowler']",Prowler,600i Explorer -> Prowler
+294,2,"['ROC', 'Arrastra']",Arrastra,ROC -> Arrastra
+295,2,"['Buccaneer', 'Starfarer']",Starfarer,Buccaneer -> Starfarer
+296,2,"['Guardian', 'Corsair']",Corsair,Guardian -> Corsair
+297,2,"['Carrack', 'Nova']",Nova,Carrack -> Nova
+298,2,"['Razor', 'F8C Lightning']",F8C Lightning,Razor -> F8C Lightning
+299,2,"['Razor LX', 'Freelancer MAX']",Freelancer MAX,Razor LX -> Freelancer MAX
+300,2,"['Defender', 'Aurora ES']",Aurora ES,Defender -> Aurora ES
+301,2,"['Starfarer Gemini', 'Guardian']",Guardian,Starfarer Gemini -> Guardian
+302,2,"['Cyclone AA', '315p']",315p,Cyclone AA -> 315p
+303,2,"['Cutlass Steel', 'Mule']",Mule,Cutlass Steel -> Mule
+304,2,"['Polaris', 'Glaive']",Glaive,Polaris -> Glaive
+305,2,"['Vanguard Hoplite', 'Eclipse']",Eclipse,Vanguard Hoplite -> Eclipse
+306,2,"['Ironclad', 'F7C-S Hornet Ghost Mk II']",F7C-S Hornet Ghost Mk II,Ironclad -> F7C-S Hornet Ghost Mk II
+307,2,"['Mercury', 'Orion']",Orion,Mercury -> Orion
+308,2,"['C8 Pisces', 'Prowler']",Prowler,C8 Pisces -> Prowler
+309,3,"['Ranger RC', 'Apollo Medivac', 'Apollo Triage']",Apollo Triage,Ranger RC -> Apollo Medivac -> Apollo Triage
+310,2,"['ROC-DS', 'Nova']",Nova,ROC-DS -> Nova
+311,2,"['F7C Hornet Mk II', 'Guardian']",Guardian,F7C Hornet Mk II -> Guardian
+312,2,"['MPUV Personnel', 'Hull A']",Hull A,MPUV Personnel -> Hull A
+313,2,"['F7C Hornet Mk II', 'Ursa']",Ursa,F7C Hornet Mk II -> Ursa
+314,2,"['Ballista', 'Scorpius']",Scorpius,Ballista -> Scorpius
+315,2,"['Paladin', 'Constellation Aquila']",Constellation Aquila,Paladin -> Constellation Aquila
+316,3,"['Redeemer', 'Apollo Medivac', 'Apollo Triage']",Apollo Triage,Redeemer -> Apollo Medivac -> Apollo Triage
+317,2,"['Nova', 'Vanguard Sentinel']",Vanguard Sentinel,Nova -> Vanguard Sentinel
+318,2,"['G12', 'Pulse']",Pulse,G12 -> Pulse
+319,3,"['Cyclone TR', 'Idris-M', 'Idris-P']",Idris-P,Cyclone TR -> Idris-M -> Idris-P
+320,2,"['Mercury', 'Legionnaire']",Legionnaire,Mercury -> Legionnaire
+321,7,"['400i', '350r', 'Valkyrie', 'Vanguard Warden', 'G12a', 'Centurion']",Centurion,400i -> 350r -> Valkyrie -> Vanguard Warden -> G12a -> Centurion
+322,2,"['PTV', 'Idris-M']",Idris-M,PTV -> Idris-M
+323,2,"['Ironclad Assault', 'Khartu-Al']",Khartu-Al,Ironclad Assault -> Khartu-Al
+324,2,"['Vanguard Warden', 'Avenger Titan']",Avenger Titan,Vanguard Warden -> Avenger Titan
+325,2,"['X1 Velocity', 'Aurora CL']",Aurora CL,X1 Velocity -> Aurora CL
+326,1,['Cutter Scout'],Cutter Scout,Cutter Scout
+327,2,"['Mustang Delta', 'F7C-S Hornet Ghost Mk II']",F7C-S Hornet Ghost Mk II,Mustang Delta -> F7C-S Hornet Ghost Mk II
+328,3,"['F7C-R Hornet Tracker', 'Fury', 'Fury MX']",Fury MX,F7C-R Hornet Tracker -> Fury -> Fury MX
+329,2,"['Polaris', 'Cyclone TR']",Cyclone TR,Polaris -> Cyclone TR
+330,2,"['Constellation Phoenix', 'Merchantman']",Merchantman,Constellation Phoenix -> Merchantman
+331,2,"['Starfarer', 'Ursa']",Ursa,Starfarer -> Ursa
+332,2,"['Ares Star Fighter Ion', 'Spartan']",Spartan,Ares Star Fighter Ion -> Spartan
+333,2,"['Cyclone AA', 'Storm']",Storm,Cyclone AA -> Storm
+334,2,"['Vulture', 'F7C Hornet Mk II']",F7C Hornet Mk II,Vulture -> F7C Hornet Mk II
+335,2,"['Mustang Beta', 'Mustang Delta']",Mustang Delta,Mustang Beta -> Mustang Delta
+336,2,"['Ares Star Fighter Inferno', 'X1 Velocity']",X1 Velocity,Ares Star Fighter Inferno -> X1 Velocity
+337,2,"['Mustang Delta', 'Terrapin']",Terrapin,Mustang Delta -> Terrapin
+338,2,"['Intrepid', 'Apollo Medivac']",Apollo Medivac,Intrepid -> Apollo Medivac
+339,2,"['315p', 'F7C-S Hornet Ghost']",F7C-S Hornet Ghost,315p -> F7C-S Hornet Ghost
+340,2,"['Aurora LN', '125a']",125a,Aurora LN -> 125a
+341,2,"['Ranger CV', 'Scorpius']",Scorpius,Ranger CV -> Scorpius
+342,2,"['Freelancer DUR', 'Endeavor']",Endeavor,Freelancer DUR -> Endeavor
+343,2,"['E1 Spirit', 'ROC']",ROC,E1 Spirit -> ROC
+344,2,"['Freelancer MAX', 'Spartan']",Spartan,Freelancer MAX -> Spartan
+345,3,"['Vanguard Warden', 'Idris-M', 'Idris-P']",Idris-P,Vanguard Warden -> Idris-M -> Idris-P
+346,2,"['Aurora MR', 'Cutter Scout']",Cutter Scout,Aurora MR -> Cutter Scout
+347,2,"['Freelancer MIS', 'Cyclone AA']",Cyclone AA,Freelancer MIS -> Cyclone AA
+348,2,"['C1 Spirit', 'Hull D']",Hull D,C1 Spirit -> Hull D
+349,2,"['Freelancer DUR', 'Hammerhead']",Hammerhead,Freelancer DUR -> Hammerhead
+350,2,"['Nomad', 'Mantis']",Mantis,Nomad -> Mantis
+351,2,"['Polaris', 'Constellation Taurus']",Constellation Taurus,Polaris -> Constellation Taurus
+352,2,"['Aurora LN', 'Mantis']",Mantis,Aurora LN -> Mantis
+353,2,"['Pioneer', 'P-72 Archimedes']",P-72 Archimedes,Pioneer -> P-72 Archimedes
+354,2,"['Ursa Medivac', 'MPUV Cargo']",MPUV Cargo,Ursa Medivac -> MPUV Cargo
+355,2,"['A2 Hercules', '315p']",315p,A2 Hercules -> 315p
+356,2,"['Freelancer MAX', 'Spartan']",Spartan,Freelancer MAX -> Spartan
+357,2,"['Talon Shrike', 'M2 Hercules']",M2 Hercules,Talon Shrike -> M2 Hercules
+358,2,"['Redeemer', '350r']",350r,Redeemer -> 350r
+359,2,"['F7C Hornet Mk I', 'C2 Hercules']",C2 Hercules,F7C Hornet Mk I -> C2 Hercules
+360,2,"['Lynx', 'F7C-R Hornet Tracker Mk II']",F7C-R Hornet Tracker Mk II,Lynx -> F7C-R Hornet Tracker Mk II
+361,2,"['Hurricane', 'Freelancer MAX']",Freelancer MAX,Hurricane -> Freelancer MAX
+362,2,"['Razor EX', 'Reliant Tana']",Reliant Tana,Razor EX -> Reliant Tana
+363,2,"['A1 Spirit', 'Fury LX']",Fury LX,A1 Spirit -> Fury LX
+364,2,"['Liberator', 'A1 Spirit']",A1 Spirit,Liberator -> A1 Spirit
+365,2,"['X1', 'Crucible']",Crucible,X1 -> Crucible
+366,2,"['Terrapin', ""San'tok.yāi""]",San'tok.yāi,Terrapin -> San'tok.yāi
+367,2,"['Starfarer', 'Ballista']",Ballista,Starfarer -> Ballista
+368,2,"['Galaxy', 'Reliant Tana']",Reliant Tana,Galaxy -> Reliant Tana
+369,2,"['Vanguard Hoplite', 'Expanse']",Expanse,Vanguard Hoplite -> Expanse
+370,2,"['Perseus', 'Freelancer DUR']",Freelancer DUR,Perseus -> Freelancer DUR
+371,2,"['Vanguard Warden', 'Ranger RC']",Ranger RC,Vanguard Warden -> Ranger RC
+372,2,"['F7A Hornet Mk II', 'Ballista']",Ballista,F7A Hornet Mk II -> Ballista
+373,2,"['Razor', 'G12']",G12,Razor -> G12
+374,2,"['F7A Hornet Mk I', 'Polaris']",Polaris,F7A Hornet Mk I -> Polaris
+375,2,"['85X', 'Pulse']",Pulse,85X -> Pulse
+376,2,"['Cutter Rambler', 'MPUV Personnel']",MPUV Personnel,Cutter Rambler -> MPUV Personnel
+377,2,"['Lynx', 'A2 Hercules']",A2 Hercules,Lynx -> A2 Hercules
+378,3,"['Mustang Delta', 'Avenger Stalker', 'Avenger Warlock']",Avenger Warlock,Mustang Delta -> Avenger Stalker -> Avenger Warlock
+379,2,"['Eclipse', 'C8R Pisces']",C8R Pisces,Eclipse -> C8R Pisces
+380,2,"['Vanguard Sentinel', 'X1']",X1,Vanguard Sentinel -> X1
+381,2,"['Fury LX', 'Nautilus']",Nautilus,Fury LX -> Nautilus
+382,2,"['Starlancer MAX', 'CSV-SM']",CSV-SM,Starlancer MAX -> CSV-SM
+383,2,"['Kraken Privateer', 'Cutter']",Cutter,Kraken Privateer -> Cutter
+384,2,"['Guardian QI', 'Razor EX']",Razor EX,Guardian QI -> Razor EX
+385,2,"['Reliant Mako', 'Polaris']",Polaris,Reliant Mako -> Polaris
+386,2,"['Avenger Stalker', 'C1 Spirit']",C1 Spirit,Avenger Stalker -> C1 Spirit
+387,2,"['Retaliator', ""San'tok.yāi""]",San'tok.yāi,Retaliator -> San'tok.yāi
+388,2,"['Nomad', 'Vanguard Hoplite']",Vanguard Hoplite,Nomad -> Vanguard Hoplite
+389,1,['ROC'],ROC,ROC
+390,3,"['Cyclone RN', 'Arrow', 'Hawk']",Hawk,Cyclone RN -> Arrow -> Hawk
+391,3,"['Storm', 'Ares Star Fighter Inferno', 'Ares Star Fighter Ion']",Ares Star Fighter Ion,Storm -> Ares Star Fighter Inferno -> Ares Star Fighter Ion
+392,2,"['300i', '325a']",325a,300i -> 325a
+393,2,"['PTV', 'Nox']",Nox,PTV -> Nox
+394,2,"['A2 Hercules', 'Retaliator']",Retaliator,A2 Hercules -> Retaliator
+395,2,"['Ballista', 'Scythe']",Scythe,Ballista -> Scythe
+396,2,"['350r', 'Odyssey']",Odyssey,350r -> Odyssey
+397,2,"['F7C-M Super Hornet', 'Razor LX']",Razor LX,F7C-M Super Hornet -> Razor LX
+398,2,"['Defender', 'C8X Pisces Expedition']",C8X Pisces Expedition,Defender -> C8X Pisces Expedition
+399,2,"['Vanguard Warden', 'Endeavor']",Endeavor,Vanguard Warden -> Endeavor
+400,2,"['Cyclone MT', 'Scythe']",Scythe,Cyclone MT -> Scythe
+401,2,"['M50', 'Khartu-Al']",Khartu-Al,M50 -> Khartu-Al
+402,3,"['Mule', 'Hull D', 'Hull E']",Hull E,Mule -> Hull D -> Hull E
+403,2,"['Cyclone', 'M2 Hercules']",M2 Hercules,Cyclone -> M2 Hercules
+404,2,"['Reliant Kore', 'Sabre Peregrine']",Sabre Peregrine,Reliant Kore -> Sabre Peregrine
+405,2,"['Galaxy', 'C2 Hercules']",C2 Hercules,Galaxy -> C2 Hercules
+406,2,"['Kraken', 'Aurora CL']",Aurora CL,Kraken -> Aurora CL
+407,2,"['85X', 'Sabre Firebird']",Sabre Firebird,85X -> Sabre Firebird
+408,2,"['A2 Hercules', '125a']",125a,A2 Hercules -> 125a
+409,2,"['ROC-DS', 'Polaris']",Polaris,ROC-DS -> Polaris
+410,2,"['Cyclone MT', 'Fury']",Fury,Cyclone MT -> Fury
+411,2,"['F7C-S Hornet Ghost', 'Crucible']",Crucible,F7C-S Hornet Ghost -> Crucible
+412,2,"['Ranger RC', 'Vulcan']",Vulcan,Ranger RC -> Vulcan
+413,2,"['Herald', 'Corsair']",Corsair,Herald -> Corsair
+414,2,"['Cyclone RC', '325a']",325a,Cyclone RC -> 325a
+415,2,"['Razor LX', 'Reliant Tana']",Reliant Tana,Razor LX -> Reliant Tana
+416,2,"['Retaliator', 'Aurora CL']",Aurora CL,Retaliator -> Aurora CL
+417,2,"['Cyclone AA', 'Redeemer']",Redeemer,Cyclone AA -> Redeemer
+418,2,"['Fury', 'Razor EX']",Razor EX,Fury -> Razor EX
+419,2,"['Ballista', 'Sabre Firebird']",Sabre Firebird,Ballista -> Sabre Firebird
+420,2,"['Fury MX', 'ATLS']",ATLS,Fury MX -> ATLS
+421,2,"['Mustang Omega', 'Mustang Beta']",Mustang Beta,Mustang Omega -> Mustang Beta
+422,2,"['Gladius', 'X1 Velocity']",X1 Velocity,Gladius -> X1 Velocity
+423,3,"['Ranger RC', 'Avenger Stalker', 'Avenger Warlock']",Avenger Warlock,Ranger RC -> Avenger Stalker -> Avenger Warlock
+424,2,"['Cutlass Steel', 'G12a']",G12a,Cutlass Steel -> G12a
+425,2,"['Ursa', 'Ballista']",Ballista,Ursa -> Ballista
+426,2,"['Prospector', 'G12r']",G12r,Prospector -> G12r
+427,3,"['Starfarer', '350r', 'M50']",M50,Starfarer -> 350r -> M50
+428,2,"['A1 Spirit', '100i']",100i,A1 Spirit -> 100i
+429,2,"['Galaxy', 'Vanguard Harbinger']",Vanguard Harbinger,Galaxy -> Vanguard Harbinger
+430,2,"['Vanguard Hoplite', '100i']",100i,Vanguard Hoplite -> 100i
+431,2,"['HoverQuad', 'G12r']",G12r,HoverQuad -> G12r
+432,2,"['X1', 'Talon Shrike']",Talon Shrike,X1 -> Talon Shrike
+433,2,"['Freelancer', 'F7C-S Hornet Ghost Mk II']",F7C-S Hornet Ghost Mk II,Freelancer -> F7C-S Hornet Ghost Mk II
+434,2,"['Galaxy', 'Scorpius']",Scorpius,Galaxy -> Scorpius
+435,3,"['Vulcan', 'Idris-M', 'Idris-P']",Idris-P,Vulcan -> Idris-M -> Idris-P
+436,2,"['Cyclone RN', 'Spartan']",Spartan,Cyclone RN -> Spartan
+437,2,"['Retaliator', 'Genesis']",Genesis,Retaliator -> Genesis
+438,2,"['Storm AA', '135c']",135c,Storm AA -> 135c
+439,2,"['E1 Spirit', 'Ironclad']",Ironclad,E1 Spirit -> Ironclad
+440,2,"['Nomad', 'Galaxy']",Galaxy,Nomad -> Galaxy
+441,2,"['Caterpillar', 'Nomad']",Nomad,Caterpillar -> Nomad
+442,2,"['Paladin', 'Gladius']",Gladius,Paladin -> Gladius
+443,2,"['Vanguard Sentinel', 'Paladin']",Paladin,Vanguard Sentinel -> Paladin
+444,2,"['PTV', 'Avenger Titan']",Avenger Titan,PTV -> Avenger Titan
+445,2,"['890 Jump', 'X1 Force']",X1 Force,890 Jump -> X1 Force
+446,2,"['F7C-S Hornet Ghost', 'Pioneer']",Pioneer,F7C-S Hornet Ghost -> Pioneer
+447,2,"['Ares Star Fighter Inferno', 'Hull C']",Hull C,Ares Star Fighter Inferno -> Hull C
+448,2,"['Ballista', 'Arrastra']",Arrastra,Ballista -> Arrastra
+449,2,"['Starlancer TAC', 'Mercury']",Mercury,Starlancer TAC -> Mercury
+450,2,"['C1 Spirit', 'Terrapin Medic']",Terrapin Medic,C1 Spirit -> Terrapin Medic
+451,3,"['Vanguard Harbinger', 'Kraken', 'Kraken Privateer']",Kraken Privateer,Vanguard Harbinger -> Kraken -> Kraken Privateer
+452,2,"['X1 Velocity', 'F8C Lightning']",F8C Lightning,X1 Velocity -> F8C Lightning
+453,2,"['125a', 'F7C-R Hornet Tracker Mk II']",F7C-R Hornet Tracker Mk II,125a -> F7C-R Hornet Tracker Mk II
+454,2,"['Dragonfly', 'Valkyrie']",Valkyrie,Dragonfly -> Valkyrie
+455,2,"['Starfarer', 'Dragonfly']",Dragonfly,Starfarer -> Dragonfly
+456,2,"['890 Jump', 'Terrapin']",Terrapin,890 Jump -> Terrapin
+457,2,"['600i Explorer', 'Vanguard Sentinel']",Vanguard Sentinel,600i Explorer -> Vanguard Sentinel
+458,2,"['Liberator', 'Redeemer']",Redeemer,Liberator -> Redeemer
+459,2,"['Guardian', 'Aurora ES']",Aurora ES,Guardian -> Aurora ES
+460,2,"['Perseus', '125a']",125a,Perseus -> 125a
+461,2,"['Ranger TR', 'F7C-M Super Hornet']",F7C-M Super Hornet,Ranger TR -> F7C-M Super Hornet
+462,2,"['Prowler', 'Starlancer TAC']",Starlancer TAC,Prowler -> Starlancer TAC
+463,2,"['Ares Star Fighter Inferno', 'A2 Hercules']",A2 Hercules,Ares Star Fighter Inferno -> A2 Hercules
+464,2,"['C8X Pisces Expedition', 'Zeus ES Mk II']",Zeus ES Mk II,C8X Pisces Expedition -> Zeus ES Mk II
+465,3,"['Storm', '350r', 'M50']",M50,Storm -> 350r -> M50
+466,2,"['Hull C', 'F7C-M Super Hornet']",F7C-M Super Hornet,Hull C -> F7C-M Super Hornet
+467,2,"['Spartan', 'Retaliator']",Retaliator,Spartan -> Retaliator
+468,2,"['Constellation Taurus', '135c']",135c,Constellation Taurus -> 135c
+469,2,"['Aurora LX', 'Avenger Stalker']",Avenger Stalker,Aurora LX -> Avenger Stalker
+470,2,"['Hull A', 'PTV']",PTV,Hull A -> PTV
+471,2,"['MOLE', 'Cutter Scout']",Cutter Scout,MOLE -> Cutter Scout
+472,2,"['Hull C', 'Starfarer']",Starfarer,Hull C -> Starfarer
+473,2,"['Mustang Delta', 'F7A Hornet Mk I']",F7A Hornet Mk I,Mustang Delta -> F7A Hornet Mk I
+474,2,"['F7C-M Super Hornet', 'Kraken']",Kraken,F7C-M Super Hornet -> Kraken
+475,2,"['Ursa', 'Freelancer DUR']",Freelancer DUR,Ursa -> Freelancer DUR
+476,2,"['Caterpillar', 'Cutlass Steel']",Cutlass Steel,Caterpillar -> Cutlass Steel
+477,2,"['Prospector', 'Reclaimer']",Reclaimer,Prospector -> Reclaimer
+478,2,"['Ares Star Fighter Ion', 'A2 Hercules']",A2 Hercules,Ares Star Fighter Ion -> A2 Hercules
+479,2,"['Liberator', 'Arrow']",Arrow,Liberator -> Arrow
+480,2,"['Vanguard Harbinger', ""San'tok.yāi""]",San'tok.yāi,Vanguard Harbinger -> San'tok.yāi
+481,2,"['Hull A', 'Razor LX']",Razor LX,Hull A -> Razor LX
+482,2,"['Cutlass Blue', 'Vulture']",Vulture,Cutlass Blue -> Vulture
+483,2,"['Aurora LX', 'Ranger CV']",Ranger CV,Aurora LX -> Ranger CV
+484,2,"['Vanguard Hoplite', 'Cutlass Black']",Cutlass Black,Vanguard Hoplite -> Cutlass Black
+485,2,"['F7C-R Hornet Tracker Mk II', 'Cyclone AA']",Cyclone AA,F7C-R Hornet Tracker Mk II -> Cyclone AA
+486,2,"['Vulture', 'Mustang Alpha']",Mustang Alpha,Vulture -> Mustang Alpha
+487,2,"['Blade', 'Ranger TR']",Ranger TR,Blade -> Ranger TR
+488,3,"['Eclipse', 'Guardian', 'Guardian QI']",Guardian QI,Eclipse -> Guardian -> Guardian QI
+489,3,"['Vanguard Sentinel', 'Ursa', 'Ursa Medivac']",Ursa Medivac,Vanguard Sentinel -> Ursa -> Ursa Medivac
+490,2,"['600i Touring', '325a']",325a,600i Touring -> 325a
+491,1,['C2 Hercules'],C2 Hercules,C2 Hercules
+492,3,"['Terrapin Medic', 'Apollo Medivac', 'Apollo Triage']",Apollo Triage,Terrapin Medic -> Apollo Medivac -> Apollo Triage
+493,2,"['Vanguard Hoplite', 'MPUV Cargo']",MPUV Cargo,Vanguard Hoplite -> MPUV Cargo
+494,2,"['85X', 'ROC-DS']",ROC-DS,85X -> ROC-DS
+495,2,"['Crucible', 'Apollo Medivac']",Apollo Medivac,Crucible -> Apollo Medivac
+496,2,"['Terrapin Medic', 'Hull D']",Hull D,Terrapin Medic -> Hull D
+497,2,"['Kraken Privateer', 'ROC']",ROC,Kraken Privateer -> ROC
+498,2,"['Apollo Medivac', 'Spartan']",Spartan,Apollo Medivac -> Spartan
+499,2,"['Constellation Phoenix', '135c']",135c,Constellation Phoenix -> 135c
+500,2,"['RAFT', 'Valkyrie']",Valkyrie,RAFT -> Valkyrie
+501,2,"['Javelin', '350r']",350r,Javelin -> 350r
+502,2,"['Nomad', 'F8C Lightning']",F8C Lightning,Nomad -> F8C Lightning
+503,2,"['Starlancer TAC', 'Avenger Titan']",Avenger Titan,Starlancer TAC -> Avenger Titan
+504,2,"['Kraken Privateer', 'Glaive']",Glaive,Kraken Privateer -> Glaive
+505,2,"['Ironclad', 'Vanguard Harbinger']",Vanguard Harbinger,Ironclad -> Vanguard Harbinger
+506,2,"['Scythe', 'Constellation Andromeda']",Constellation Andromeda,Scythe -> Constellation Andromeda
+507,2,"['MOLE', '890 Jump']",890 Jump,MOLE -> 890 Jump
+508,2,"['Ranger TR', 'Vanguard Hoplite']",Vanguard Hoplite,Ranger TR -> Vanguard Hoplite
+509,2,"['F7C-R Hornet Tracker', 'Pioneer']",Pioneer,F7C-R Hornet Tracker -> Pioneer
+510,2,"['Hull C', 'Ballista']",Ballista,Hull C -> Ballista
+511,2,"['Avenger Stalker', '135c']",135c,Avenger Stalker -> 135c
+512,2,"['Ranger CV', 'PTV']",PTV,Ranger CV -> PTV
+513,2,"['Blade', '600i Touring']",600i Touring,Blade -> 600i Touring
+514,2,"['Ares Star Fighter Ion', 'RAFT']",RAFT,Ares Star Fighter Ion -> RAFT
+515,2,"['ROC', 'Constellation Taurus']",Constellation Taurus,ROC -> Constellation Taurus
+516,2,"['Ironclad', 'Cyclone']",Cyclone,Ironclad -> Cyclone
+517,2,"['Pioneer', 'Gladius']",Gladius,Pioneer -> Gladius
+518,2,"['Perseus', 'Fury LX']",Fury LX,Perseus -> Fury LX
+519,2,"['Prospector', 'PTV']",PTV,Prospector -> PTV
+520,2,"['Nova', 'Avenger Stalker']",Avenger Stalker,Nova -> Avenger Stalker
+521,2,"['300i', 'Terrapin']",Terrapin,300i -> Terrapin
+522,2,"['Cutter Rambler', 'Scorpius']",Scorpius,Cutter Rambler -> Scorpius
+523,2,"['Ranger TR', 'G12a']",G12a,Ranger TR -> G12a
+524,2,"['300i', 'Cutlass Blue']",Cutlass Blue,300i -> Cutlass Blue
+525,2,"['Cutter', 'Ursa']",Ursa,Cutter -> Ursa
+526,2,"['100i', 'Vanguard Warden']",Vanguard Warden,100i -> Vanguard Warden
+527,2,"['Aurora CL', 'Cutter Scout']",Cutter Scout,Aurora CL -> Cutter Scout
+528,7,"['Reliant Kore', 'Endeavor', 'Hurricane', 'Freelancer MAX', 'Reliant Sen', 'Kraken']",Kraken,Reliant Kore -> Endeavor -> Hurricane -> Freelancer MAX -> Reliant Sen -> Kraken
+529,2,"['Aurora LN', 'G12r']",G12r,Aurora LN -> G12r
+530,2,"['Cyclone RC', 'Aurora ES']",Aurora ES,Cyclone RC -> Aurora ES
+531,2,"['STV', 'Ranger CV']",Ranger CV,STV -> Ranger CV
+532,2,"['Herald', 'ROC-DS']",ROC-DS,Herald -> ROC-DS
+533,2,"['Freelancer MIS', 'Vanguard Hoplite']",Vanguard Hoplite,Freelancer MIS -> Vanguard Hoplite
+534,2,"['Hammerhead', 'Reclaimer']",Reclaimer,Hammerhead -> Reclaimer
+535,2,"['Hull B', 'Mustang Alpha']",Mustang Alpha,Hull B -> Mustang Alpha
+536,2,"['Sabre Raven', 'Guardian']",Guardian,Sabre Raven -> Guardian
+537,2,"['Railen', 'Guardian']",Guardian,Railen -> Guardian
+538,2,"['Hull E', 'Aurora CL']",Aurora CL,Hull E -> Aurora CL
+539,2,"['Talon', '325a']",325a,Talon -> 325a
+540,2,"['Scythe', 'Cutter']",Cutter,Scythe -> Cutter
+541,2,"['STV', 'Odyssey']",Odyssey,STV -> Odyssey
+542,2,"['Starfarer', '890 Jump']",890 Jump,Starfarer -> 890 Jump
+543,2,"['Ironclad', 'Sabre Peregrine']",Sabre Peregrine,Ironclad -> Sabre Peregrine
+544,2,"['Terrapin Medic', 'Cyclone TR']",Cyclone TR,Terrapin Medic -> Cyclone TR
+545,2,"['Freelancer MIS', 'Redeemer']",Redeemer,Freelancer MIS -> Redeemer
+546,2,"['Scorpius', 'Kraken']",Kraken,Scorpius -> Kraken
+547,2,"['Nomad', 'Cutter']",Cutter,Nomad -> Cutter
+548,2,"['Scorpius Antares', 'Ursa']",Ursa,Scorpius Antares -> Ursa
+549,2,"['Ares Star Fighter Inferno', 'Ranger CV']",Ranger CV,Ares Star Fighter Inferno -> Ranger CV
+550,2,"['Vanguard Sentinel', '135c']",135c,Vanguard Sentinel -> 135c
+551,2,"['C8R Pisces', 'Cutlass Blue']",Cutlass Blue,C8R Pisces -> Cutlass Blue
+552,2,"['350r', 'MPUV Tractor']",MPUV Tractor,350r -> MPUV Tractor
+553,2,"['G12', 'A2 Hercules']",A2 Hercules,G12 -> A2 Hercules
+554,2,"['MOLE', 'Sabre Firebird']",Sabre Firebird,MOLE -> Sabre Firebird
+555,2,"['Constellation Aquila', 'Defender']",Defender,Constellation Aquila -> Defender
+556,2,"['600i Touring', 'Avenger Titan']",Avenger Titan,600i Touring -> Avenger Titan
+557,2,"['Endeavor', '125a']",125a,Endeavor -> 125a
+558,2,"['Gladiator', 'Dragonfly']",Dragonfly,Gladiator -> Dragonfly
+559,2,"['STV', 'Corsair']",Corsair,STV -> Corsair
+560,2,"['Corsair', 'Avenger Titan']",Avenger Titan,Corsair -> Avenger Titan
+561,2,"['Orion', 'X1']",X1,Orion -> X1
+562,2,"['Vanguard Harbinger', 'Cyclone TR']",Cyclone TR,Vanguard Harbinger -> Cyclone TR
+563,2,"['F7C-S Hornet Ghost Mk II', 'Herald']",Herald,F7C-S Hornet Ghost Mk II -> Herald
+564,2,"['Eclipse', 'Cyclone TR']",Cyclone TR,Eclipse -> Cyclone TR
+565,2,"['Hull E', 'A1 Spirit']",A1 Spirit,Hull E -> A1 Spirit
+566,2,"['Nova', 'Hull B']",Hull B,Nova -> Hull B
+567,2,"['Mercury', 'Guardian']",Guardian,Mercury -> Guardian
+568,2,"['Aurora CL', 'Apollo Medivac']",Apollo Medivac,Aurora CL -> Apollo Medivac
+569,2,"['Crucible', 'F7C-M Super Hornet']",F7C-M Super Hornet,Crucible -> F7C-M Super Hornet
+570,2,"['PTV', 'G12a']",G12a,PTV -> G12a
+571,2,"['Aurora LX', 'Railen']",Railen,Aurora LX -> Railen
+572,2,"['Scorpius Antares', 'Gladius']",Gladius,Scorpius Antares -> Gladius
+573,2,"['Ares Star Fighter Ion', 'Cyclone RC']",Cyclone RC,Ares Star Fighter Ion -> Cyclone RC
+574,3,"['Ironclad', '350r', 'M50']",M50,Ironclad -> 350r -> M50
+575,2,"['P-72 Archimedes', 'F7C-R Hornet Tracker']",F7C-R Hornet Tracker,P-72 Archimedes -> F7C-R Hornet Tracker
+576,2,"['P-72 Archimedes', 'C8 Pisces']",C8 Pisces,P-72 Archimedes -> C8 Pisces
+577,2,"['Pioneer', 'Avenger Titan']",Avenger Titan,Pioneer -> Avenger Titan
+578,2,"['Railen', 'Pulse LX']",Pulse LX,Railen -> Pulse LX
+579,2,"['C1 Spirit', 'Cutlass Black']",Cutlass Black,C1 Spirit -> Cutlass Black
+580,2,"['Corsair', 'Apollo Medivac']",Apollo Medivac,Corsair -> Apollo Medivac
+581,2,"['F7A Hornet Mk II', 'Corsair']",Corsair,F7A Hornet Mk II -> Corsair
+582,2,"['Mustang Beta', 'Guardian']",Guardian,Mustang Beta -> Guardian
+583,2,"['Nova', 'Starfarer']",Starfarer,Nova -> Starfarer
+584,2,"['M50', 'Reliant Tana']",Reliant Tana,M50 -> Reliant Tana
+585,2,"['Odyssey', 'Mustang Gamma']",Mustang Gamma,Odyssey -> Mustang Gamma
+586,2,"['Sabre', 'Reliant Tana']",Reliant Tana,Sabre -> Reliant Tana
+587,2,"['Cutter Rambler', 'Ranger CV']",Ranger CV,Cutter Rambler -> Ranger CV
+588,2,"['Aurora LX', 'Hull D']",Hull D,Aurora LX -> Hull D
+589,2,"['Kraken Privateer', 'Reliant Tana']",Reliant Tana,Kraken Privateer -> Reliant Tana
+590,3,"['SRV', 'Hull D', 'Hull E']",Hull E,SRV -> Hull D -> Hull E
+591,2,"['A1 Spirit', 'Vulcan']",Vulcan,A1 Spirit -> Vulcan
+592,3,"['M50', 'Storm', 'Storm AA']",Storm AA,M50 -> Storm -> Storm AA
+593,2,"['300i', 'HoverQuad']",HoverQuad,300i -> HoverQuad
+594,2,"['Ranger RC', 'Arrastra']",Arrastra,Ranger RC -> Arrastra
+595,2,"['F8C Lightning', 'Reliant Kore']",Reliant Kore,F8C Lightning -> Reliant Kore
+596,2,"['Razor', 'Mustang Beta']",Mustang Beta,Razor -> Mustang Beta
+597,2,"['Storm', 'Terrapin Medic']",Terrapin Medic,Storm -> Terrapin Medic
+598,2,"['135c', 'Sabre Peregrine']",Sabre Peregrine,135c -> Sabre Peregrine
+599,2,"['MOLE', 'Galaxy']",Galaxy,MOLE -> Galaxy
+600,2,"['Cutter Scout', 'Lynx']",Lynx,Cutter Scout -> Lynx
+601,2,"['Sabre', 'Kraken']",Kraken,Sabre -> Kraken
+602,2,"['CSV-SM', 'Merchantman']",Merchantman,CSV-SM -> Merchantman
+603,2,"['Carrack', 'Herald']",Herald,Carrack -> Herald
+604,2,"['Sabre', 'Expanse']",Expanse,Sabre -> Expanse
+605,2,"['Polaris', 'Reliant Mako']",Reliant Mako,Polaris -> Reliant Mako
+606,7,"['F7C Hornet Mk II', 'Vulture', 'Mantis', 'Ursa Medivac', 'Vanguard Hoplite', '300i']",300i,F7C Hornet Mk II -> Vulture -> Mantis -> Ursa Medivac -> Vanguard Hoplite -> 300i
+607,2,"['Valkyrie', 'Reliant Mako']",Reliant Mako,Valkyrie -> Reliant Mako
+608,2,"['Genesis', 'Starfarer Gemini']",Starfarer Gemini,Genesis -> Starfarer Gemini
+609,2,"['Vulcan', 'Cyclone RC']",Cyclone RC,Vulcan -> Cyclone RC
+610,2,"['Ironclad', 'Ranger RC']",Ranger RC,Ironclad -> Ranger RC
+611,3,"['Ranger RC', 'Storm', 'Storm AA']",Storm AA,Ranger RC -> Storm -> Storm AA
+612,2,"['Fury LX', 'Nox']",Nox,Fury LX -> Nox
+613,2,"['ATLS', 'C8 Pisces']",C8 Pisces,ATLS -> C8 Pisces
+614,2,"['Reliant Kore', 'Sabre']",Sabre,Reliant Kore -> Sabre
+615,2,"['Vanguard Warden', 'Valkyrie']",Valkyrie,Vanguard Warden -> Valkyrie
+616,3,"['Pulse LX', 'Apollo Medivac', 'Apollo Triage']",Apollo Triage,Pulse LX -> Apollo Medivac -> Apollo Triage
+617,2,"['F7C-S Hornet Ghost Mk II', 'Starfarer Gemini']",Starfarer Gemini,F7C-S Hornet Ghost Mk II -> Starfarer Gemini
+618,2,"['Galaxy', 'Sabre Peregrine']",Sabre Peregrine,Galaxy -> Sabre Peregrine
+619,2,"['Liberator', 'Starfarer Gemini']",Starfarer Gemini,Liberator -> Starfarer Gemini
+620,2,"['X1 Force', 'G12']",G12,X1 Force -> G12
+621,2,"['Expanse', 'Ironclad']",Ironclad,Expanse -> Ironclad
+622,2,"['Talon Shrike', 'Ironclad']",Ironclad,Talon Shrike -> Ironclad
+623,2,"['Starlancer MAX', 'Galaxy']",Galaxy,Starlancer MAX -> Galaxy
+624,2,"['Pulse LX', 'ROC-DS']",ROC-DS,Pulse LX -> ROC-DS
+625,2,"['Gladius', 'Avenger Titan']",Avenger Titan,Gladius -> Avenger Titan
+626,3,"['Ranger RC', 'Kraken', 'Kraken Privateer']",Kraken Privateer,Ranger RC -> Kraken -> Kraken Privateer
+627,2,"['Sabre Peregrine', 'Crucible']",Crucible,Sabre Peregrine -> Crucible
+628,3,"['Centurion', 'Fury', 'Fury MX']",Fury MX,Centurion -> Fury -> Fury MX
+629,2,"['P-52 Merlin', 'Hull C']",Hull C,P-52 Merlin -> Hull C
+630,2,"['300i', 'C8X Pisces Expedition']",C8X Pisces Expedition,300i -> C8X Pisces Expedition
+631,2,"['Freelancer DUR', 'Javelin']",Javelin,Freelancer DUR -> Javelin
+632,2,"['CSV-SM', 'Khartu-Al']",Khartu-Al,CSV-SM -> Khartu-Al
+633,2,"['400i', 'Cutter Scout']",Cutter Scout,400i -> Cutter Scout
+634,2,"['Caterpillar', 'Cutlass Blue']",Cutlass Blue,Caterpillar -> Cutlass Blue
+635,2,"['P-72 Archimedes', 'Orion']",Orion,P-72 Archimedes -> Orion
+636,3,"['F7A Hornet Mk I', 'Hull D', 'Hull E']",Hull E,F7A Hornet Mk I -> Hull D -> Hull E
+637,2,"['Guardian QI', 'Razor EX']",Razor EX,Guardian QI -> Razor EX
+638,2,"['Mustang Beta', '300i']",300i,Mustang Beta -> 300i
+639,2,"['Sabre Firebird', 'Ironclad Assault']",Ironclad Assault,Sabre Firebird -> Ironclad Assault
+640,2,"['Freelancer MIS', 'Redeemer']",Redeemer,Freelancer MIS -> Redeemer
+641,3,"['Talon', 'Aurora LN', 'Aurora MR']",Aurora MR,Talon -> Aurora LN -> Aurora MR
+642,3,"['Cyclone MT', 'Arrow', 'Hawk']",Hawk,Cyclone MT -> Arrow -> Hawk
+643,2,"['Javelin', 'Defender']",Defender,Javelin -> Defender
+644,3,"['PTV', 'Mustang Gamma', 'Mustang Omega']",Mustang Omega,PTV -> Mustang Gamma -> Mustang Omega
+645,2,"['Vanguard Hoplite', 'Pioneer']",Pioneer,Vanguard Hoplite -> Pioneer
+646,2,"['Fury LX', 'P-72 Archimedes']",P-72 Archimedes,Fury LX -> P-72 Archimedes
+647,2,"['Ares Star Fighter Inferno', 'Kraken']",Kraken,Ares Star Fighter Inferno -> Kraken
+648,2,"['ROC', 'Mustang Gamma']",Mustang Gamma,ROC -> Mustang Gamma
+649,2,"['Idris-M', 'Carrack']",Carrack,Idris-M -> Carrack
+650,2,"['Nox', 'Khartu-Al']",Khartu-Al,Nox -> Khartu-Al
+651,2,"['Zeus ES Mk II', 'Reliant Kore']",Reliant Kore,Zeus ES Mk II -> Reliant Kore
+652,2,"['Railen', 'Hull D']",Hull D,Railen -> Hull D
+653,2,"['Cutter', 'Vanguard Warden']",Vanguard Warden,Cutter -> Vanguard Warden
+654,2,"['315p', 'Kraken']",Kraken,315p -> Kraken
+655,2,"['Cutlass Red', 'Nox']",Nox,Cutlass Red -> Nox
+656,2,"['Fury MX', 'Javelin']",Javelin,Fury MX -> Javelin
+657,2,"['Cyclone AA', 'Gladiator']",Gladiator,Cyclone AA -> Gladiator
+658,2,"['Aurora LN', 'HoverQuad']",HoverQuad,Aurora LN -> HoverQuad
+659,2,"['Razor EX', 'P-72 Archimedes']",P-72 Archimedes,Razor EX -> P-72 Archimedes
+660,2,"['F7C-S Hornet Ghost', ""San'tok.yāi""]",San'tok.yāi,F7C-S Hornet Ghost -> San'tok.yāi
+661,2,"['SRV', 'Reliant Kore']",Reliant Kore,SRV -> Reliant Kore
+662,2,"['Avenger Titan', 'Nomad']",Nomad,Avenger Titan -> Nomad
+663,2,"['Ares Star Fighter Ion', 'Ursa']",Ursa,Ares Star Fighter Ion -> Ursa
+664,2,"['Constellation Phoenix', 'Centurion']",Centurion,Constellation Phoenix -> Centurion
+665,2,"['Expanse', 'F7C-R Hornet Tracker Mk II']",F7C-R Hornet Tracker Mk II,Expanse -> F7C-R Hornet Tracker Mk II
+666,2,"['Constellation Aquila', 'Hull C']",Hull C,Constellation Aquila -> Hull C
+667,2,"['Merchantman', 'F7C-R Hornet Tracker']",F7C-R Hornet Tracker,Merchantman -> F7C-R Hornet Tracker
+668,2,"['Sabre Firebird', 'MPUV Cargo']",MPUV Cargo,Sabre Firebird -> MPUV Cargo
+669,2,"['Perseus', 'Mantis']",Mantis,Perseus -> Mantis
+670,2,"['Avenger Warlock', 'Pulse']",Pulse,Avenger Warlock -> Pulse
+671,7,"['MOLE', '85X', 'Zeus CL Mk II', 'Hurricane', 'Aurora CL', 'F7C-S Hornet Ghost Mk II']",F7C-S Hornet Ghost Mk II,MOLE -> 85X -> Zeus CL Mk II -> Hurricane -> Aurora CL -> F7C-S Hornet Ghost Mk II
+672,2,"['Freelancer DUR', 'F7C Hornet Mk I']",F7C Hornet Mk I,Freelancer DUR -> F7C Hornet Mk I
+673,2,"['Ironclad', 'Legionnaire']",Legionnaire,Ironclad -> Legionnaire
+674,2,"['MPUV Tractor', 'Talon']",Talon,MPUV Tractor -> Talon
+675,2,"['Prowler', 'Talon Shrike']",Talon Shrike,Prowler -> Talon Shrike
+676,2,"['315p', 'Nomad']",Nomad,315p -> Nomad
+677,2,"['Pulse LX', 'Khartu-Al']",Khartu-Al,Pulse LX -> Khartu-Al
+678,2,"['F7C-S Hornet Ghost', 'Avenger Titan']",Avenger Titan,F7C-S Hornet Ghost -> Avenger Titan
+679,2,"['Nova', 'Scythe']",Scythe,Nova -> Scythe
+680,2,"['135c', 'Mercury']",Mercury,135c -> Mercury
+681,2,"['Arrastra', 'G12']",G12,Arrastra -> G12
+682,3,"['Javelin', 'Kraken', 'Kraken Privateer']",Kraken Privateer,Javelin -> Kraken -> Kraken Privateer
+683,2,"['890 Jump', 'F7C-R Hornet Tracker']",F7C-R Hornet Tracker,890 Jump -> F7C-R Hornet Tracker
+684,2,"['Valkyrie', 'A2 Hercules']",A2 Hercules,Valkyrie -> A2 Hercules
+685,2,"['Storm AA', 'Ares Star Fighter Inferno']",Ares Star Fighter Inferno,Storm AA -> Ares Star Fighter Inferno
+686,2,"['300i', 'Caterpillar']",Caterpillar,300i -> Caterpillar
+687,2,"['Liberator', 'Fury LX']",Fury LX,Liberator -> Fury LX
+688,2,"['Constellation Phoenix', 'Vulcan']",Vulcan,Constellation Phoenix -> Vulcan
+689,2,"['Mantis', '400i']",400i,Mantis -> 400i
+690,2,"['Prospector', 'F7C-S Hornet Ghost']",F7C-S Hornet Ghost,Prospector -> F7C-S Hornet Ghost
+691,2,"['Aurora LX', 'Paladin']",Paladin,Aurora LX -> Paladin
+692,2,"['Crucible', 'Intrepid']",Intrepid,Crucible -> Intrepid
+693,2,"['Avenger Warlock', 'Railen']",Railen,Avenger Warlock -> Railen
+694,2,"['Mustang Gamma', 'Gladius']",Gladius,Mustang Gamma -> Gladius
+695,2,"['C1 Spirit', 'C8 Pisces']",C8 Pisces,C1 Spirit -> C8 Pisces
+696,2,"['Perseus', '135c']",135c,Perseus -> 135c
+697,2,"['F7A Hornet Mk I', 'F7C Hornet Mk II']",F7C Hornet Mk II,F7A Hornet Mk I -> F7C Hornet Mk II
+698,2,"['Galaxy', 'Endeavor']",Endeavor,Galaxy -> Endeavor
+699,2,"['Galaxy', 'HoverQuad']",HoverQuad,Galaxy -> HoverQuad
+700,2,"['Apollo Triage', 'Cyclone RC']",Cyclone RC,Apollo Triage -> Cyclone RC
+701,2,"['C1 Spirit', 'Arrastra']",Arrastra,C1 Spirit -> Arrastra
+702,2,"['Perseus', 'Lynx']",Lynx,Perseus -> Lynx
+703,2,"['Aurora LX', 'Fury LX']",Fury LX,Aurora LX -> Fury LX
+704,2,"['Railen', 'CSV-SM']",CSV-SM,Railen -> CSV-SM
+705,2,"['Genesis', 'Ranger CV']",Ranger CV,Genesis -> Ranger CV
+706,2,"['Razor LX', ""San'tok.yāi""]",San'tok.yāi,Razor LX -> San'tok.yāi
+707,2,"['Freelancer DUR', 'ATLS']",ATLS,Freelancer DUR -> ATLS
+708,2,"['Cyclone TR', 'Arrow']",Arrow,Cyclone TR -> Arrow
+709,2,"['MOLE', 'Aurora LX']",Aurora LX,MOLE -> Aurora LX
+710,2,"['Arrow', '325a']",325a,Arrow -> 325a
+711,2,"['P-72 Archimedes', '135c']",135c,P-72 Archimedes -> 135c
+712,2,"['A1 Spirit', 'Freelancer']",Freelancer,A1 Spirit -> Freelancer
+713,2,"['Nox', 'E1 Spirit']",E1 Spirit,Nox -> E1 Spirit
+714,2,"['Intrepid', 'Vanguard Harbinger']",Vanguard Harbinger,Intrepid -> Vanguard Harbinger
+715,2,"['Freelancer', 'F7C Hornet Mk I']",F7C Hornet Mk I,Freelancer -> F7C Hornet Mk I
+716,2,"['Freelancer DUR', 'Razor']",Razor,Freelancer DUR -> Razor
+717,2,"['Avenger Warlock', 'Nomad']",Nomad,Avenger Warlock -> Nomad
+718,2,"['Redeemer', 'Zeus CL Mk II']",Zeus CL Mk II,Redeemer -> Zeus CL Mk II
+719,2,"['Ares Star Fighter Ion', 'Hammerhead']",Hammerhead,Ares Star Fighter Ion -> Hammerhead
+720,2,"['Cutter', 'Hull B']",Hull B,Cutter -> Hull B
+721,2,"['Hammerhead', 'Gladiator']",Gladiator,Hammerhead -> Gladiator
+722,2,"['Intrepid', 'Constellation Phoenix']",Constellation Phoenix,Intrepid -> Constellation Phoenix
+723,2,"['Scorpius', 'Ranger TR']",Ranger TR,Scorpius -> Ranger TR
+724,2,"['Reliant Sen', 'Terrapin']",Terrapin,Reliant Sen -> Terrapin
+725,3,"['Hurricane', '350r', 'M50']",M50,Hurricane -> 350r -> M50
+726,2,"['Mustang Gamma', 'Cyclone RN']",Cyclone RN,Mustang Gamma -> Cyclone RN
+727,2,"['890 Jump', 'X1 Force']",X1 Force,890 Jump -> X1 Force
+728,2,"['Centurion', 'Cyclone TR']",Cyclone TR,Centurion -> Cyclone TR
+729,2,"['SRV', 'Ares Star Fighter Inferno']",Ares Star Fighter Inferno,SRV -> Ares Star Fighter Inferno
+730,2,"['C1 Spirit', 'Redeemer']",Redeemer,C1 Spirit -> Redeemer
+731,2,"['890 Jump', 'Legionnaire']",Legionnaire,890 Jump -> Legionnaire
+732,2,"['Sabre Raven', 'Mustang Gamma']",Mustang Gamma,Sabre Raven -> Mustang Gamma
+733,2,"['Reliant Sen', 'Nomad']",Nomad,Reliant Sen -> Nomad
+734,2,"['Talon Shrike', 'Vanguard Warden']",Vanguard Warden,Talon Shrike -> Vanguard Warden
+735,2,"['F7C-R Hornet Tracker', 'P-72 Archimedes']",P-72 Archimedes,F7C-R Hornet Tracker -> P-72 Archimedes
+736,2,"['Zeus CL Mk II', 'Perseus']",Perseus,Zeus CL Mk II -> Perseus
+737,2,"['E1 Spirit', 'Aurora ES']",Aurora ES,E1 Spirit -> Aurora ES
+738,2,"['Cutlass Red', 'Odyssey']",Odyssey,Cutlass Red -> Odyssey
+739,2,"['Constellation Taurus', 'C1 Spirit']",C1 Spirit,Constellation Taurus -> C1 Spirit
+740,2,"['F7C-R Hornet Tracker Mk II', 'Arrastra']",Arrastra,F7C-R Hornet Tracker Mk II -> Arrastra
+741,2,"['Lynx', 'Ranger RC']",Ranger RC,Lynx -> Ranger RC
+742,2,"['Corsair', 'Nox']",Nox,Corsair -> Nox
+743,2,"['A1 Spirit', 'Vulcan']",Vulcan,A1 Spirit -> Vulcan
+744,2,"['Perseus', '125a']",125a,Perseus -> 125a
+745,2,"['Idris-M', 'Starfarer Gemini']",Starfarer Gemini,Idris-M -> Starfarer Gemini
+746,2,"['Genesis', 'Cutter Rambler']",Cutter Rambler,Genesis -> Cutter Rambler
+747,2,"['890 Jump', 'Constellation Andromeda']",Constellation Andromeda,890 Jump -> Constellation Andromeda
+748,2,"['600i Explorer', 'Talon']",Talon,600i Explorer -> Talon
+749,2,"['SRV', 'Razor']",Razor,SRV -> Razor
+750,2,"['400i', 'C8R Pisces']",C8R Pisces,400i -> C8R Pisces
+751,2,"['Genesis', 'Reliant Mako']",Reliant Mako,Genesis -> Reliant Mako
+752,2,"['Eclipse', 'Odyssey']",Odyssey,Eclipse -> Odyssey
+753,2,"['ROC-DS', 'Hammerhead']",Hammerhead,ROC-DS -> Hammerhead
+754,2,"['Genesis', '125a']",125a,Genesis -> 125a
+755,2,"['F7C-R Hornet Tracker', 'M2 Hercules']",M2 Hercules,F7C-R Hornet Tracker -> M2 Hercules
+756,2,"['Cutlass Blue', 'Scorpius']",Scorpius,Cutlass Blue -> Scorpius
+757,2,"['ATLS', 'Storm']",Storm,ATLS -> Storm
+758,2,"['Sabre Firebird', 'Aurora LN']",Aurora LN,Sabre Firebird -> Aurora LN
+759,2,"['Legionnaire', 'Vulture']",Vulture,Legionnaire -> Vulture
+760,2,"['M2 Hercules', 'Pulse LX']",Pulse LX,M2 Hercules -> Pulse LX
+761,2,"['Cutlass Black', 'Railen']",Railen,Cutlass Black -> Railen
+762,2,"['Galaxy', 'Constellation Aquila']",Constellation Aquila,Galaxy -> Constellation Aquila
+763,2,"['ROC-DS', 'ROC']",ROC,ROC-DS -> ROC
+764,2,"['Constellation Taurus', 'F7A Hornet Mk II']",F7A Hornet Mk II,Constellation Taurus -> F7A Hornet Mk II
+765,2,"['Mantis', 'Cyclone RN']",Cyclone RN,Mantis -> Cyclone RN
+766,3,"['Mustang Delta', 'Ursa', 'Ursa Medivac']",Ursa Medivac,Mustang Delta -> Ursa -> Ursa Medivac
+767,2,"['Hull C', 'RAFT']",RAFT,Hull C -> RAFT
+768,2,"['Fury', '100i']",100i,Fury -> 100i
+769,2,"['Avenger Warlock', 'Hull B']",Hull B,Avenger Warlock -> Hull B
+770,2,"['Ranger TR', 'Storm']",Storm,Ranger TR -> Storm
+771,2,"['Prospector', 'Cutter']",Cutter,Prospector -> Cutter
+772,2,"['Cutlass Red', 'Carrack']",Carrack,Cutlass Red -> Carrack
+773,2,"['Kraken', 'F7A Hornet Mk II']",F7A Hornet Mk II,Kraken -> F7A Hornet Mk II
+774,2,"['Razor EX', 'Cyclone TR']",Cyclone TR,Razor EX -> Cyclone TR
+775,2,"['Talon Shrike', 'Aurora LN']",Aurora LN,Talon Shrike -> Aurora LN
+776,2,"['Javelin', 'F8C Lightning']",F8C Lightning,Javelin -> F8C Lightning
+777,2,"['Cutlass Black', 'Arrastra']",Arrastra,Cutlass Black -> Arrastra
+778,2,"['Intrepid', 'Carrack']",Carrack,Intrepid -> Carrack
+779,2,"['Starlancer MAX', 'F7A Hornet Mk I']",F7A Hornet Mk I,Starlancer MAX -> F7A Hornet Mk I
+780,2,"['Hawk', 'Mustang Delta']",Mustang Delta,Hawk -> Mustang Delta
+781,2,"['Nomad', 'Constellation Phoenix']",Constellation Phoenix,Nomad -> Constellation Phoenix
+782,2,"['M50', 'Aurora ES']",Aurora ES,M50 -> Aurora ES
+783,2,"['Ranger TR', 'STV']",STV,Ranger TR -> STV
+784,2,"['Dragonfly', 'Reliant Tana']",Reliant Tana,Dragonfly -> Reliant Tana
+785,2,"['F7A Hornet Mk I', 'F7C-R Hornet Tracker']",F7C-R Hornet Tracker,F7A Hornet Mk I -> F7C-R Hornet Tracker
+786,2,"['Arrastra', 'Liberator']",Liberator,Arrastra -> Liberator
+787,3,"['Vanguard Warden', 'Idris-M', 'Idris-P']",Idris-P,Vanguard Warden -> Idris-M -> Idris-P
+788,2,"['Mercury', 'G12a']",G12a,Mercury -> G12a
+789,2,"['Starfarer', 'Ranger RC']",Ranger RC,Starfarer -> Ranger RC
+790,2,"['600i Touring', 'Hull D']",Hull D,600i Touring -> Hull D
+791,2,"['Aurora LN', 'Cutter']",Cutter,Aurora LN -> Cutter
+792,2,"['Guardian QI', 'Mustang Delta']",Mustang Delta,Guardian QI -> Mustang Delta
+793,2,"['Cutlass Steel', 'Zeus ES Mk II']",Zeus ES Mk II,Cutlass Steel -> Zeus ES Mk II
+794,1,['85X'],85X,85X
+795,2,"['ROC-DS', '315p']",315p,ROC-DS -> 315p
+796,2,"['Mustang Omega', 'P-72 Archimedes']",P-72 Archimedes,Mustang Omega -> P-72 Archimedes
+797,2,"['Khartu-Al', 'Starfarer Gemini']",Starfarer Gemini,Khartu-Al -> Starfarer Gemini
+798,2,"['Lynx', 'MPUV Cargo']",MPUV Cargo,Lynx -> MPUV Cargo
+799,2,"['Redeemer', 'Razor LX']",Razor LX,Redeemer -> Razor LX
+800,2,"['Cyclone MT', 'Aurora LN']",Aurora LN,Cyclone MT -> Aurora LN
+801,3,"['Eclipse', 'Hull D', 'Hull E']",Hull E,Eclipse -> Hull D -> Hull E
+802,2,"['P-72 Archimedes', 'Cutlass Black']",Cutlass Black,P-72 Archimedes -> Cutlass Black
+803,2,"['F7A Hornet Mk I', 'Apollo Medivac']",Apollo Medivac,F7A Hornet Mk I -> Apollo Medivac
+804,2,"['Freelancer MAX', 'Railen']",Railen,Freelancer MAX -> Railen
+805,2,"['Terrapin Medic', 'Defender']",Defender,Terrapin Medic -> Defender
+806,2,"[""San'tok.yāi"", 'Pulse']",Pulse,San'tok.yāi -> Pulse
+807,2,"['M2 Hercules', 'HoverQuad']",HoverQuad,M2 Hercules -> HoverQuad
+808,3,"['Cutlass Steel', 'Kraken', 'Kraken Privateer']",Kraken Privateer,Cutlass Steel -> Kraken -> Kraken Privateer
+809,2,"['Reclaimer', 'Orion']",Orion,Reclaimer -> Orion
+810,3,"['Polaris', 'Aurora LN', 'Aurora MR']",Aurora MR,Polaris -> Aurora LN -> Aurora MR
+811,2,"['Merchantman', 'F7C-S Hornet Ghost Mk II']",F7C-S Hornet Ghost Mk II,Merchantman -> F7C-S Hornet Ghost Mk II
+812,2,"['ROC', 'Terrapin Medic']",Terrapin Medic,ROC -> Terrapin Medic
+813,7,"['85X', 'Vulcan', 'Idris-M', 'Ursa', 'Razor', 'Razor LX']",Razor LX,85X -> Vulcan -> Idris-M -> Ursa -> Razor -> Razor LX
+814,2,"['Aurora MR', '325a']",325a,Aurora MR -> 325a
+815,3,"['Nox', 'Aurora LN', 'Aurora MR']",Aurora MR,Nox -> Aurora LN -> Aurora MR
+816,2,"['Vanguard Harbinger', 'A2 Hercules']",A2 Hercules,Vanguard Harbinger -> A2 Hercules
+817,2,"['Eclipse', 'Fury']",Fury,Eclipse -> Fury
+818,2,"['Hull E', 'Cutlass Steel']",Cutlass Steel,Hull E -> Cutlass Steel
+819,2,"['ROC-DS', 'Fury']",Fury,ROC-DS -> Fury
+820,2,"['Starfarer Gemini', 'Glaive']",Glaive,Starfarer Gemini -> Glaive
+821,2,"['Freelancer', 'F7A Hornet Mk I']",F7A Hornet Mk I,Freelancer -> F7A Hornet Mk I
+822,2,"['Arrastra', 'Talon']",Talon,Arrastra -> Talon
+823,2,"['Herald', 'X1']",X1,Herald -> X1
+824,2,"['Galaxy', 'C1 Spirit']",C1 Spirit,Galaxy -> C1 Spirit
+825,2,"['SRV', 'Pulse LX']",Pulse LX,SRV -> Pulse LX
+826,2,"['Crucible', 'Mule']",Mule,Crucible -> Mule
+827,2,"['Ironclad Assault', 'Hull C']",Hull C,Ironclad Assault -> Hull C
+828,2,"['Storm AA', 'Galaxy']",Galaxy,Storm AA -> Galaxy
+829,2,"['Crucible', 'Nautilus']",Nautilus,Crucible -> Nautilus
+830,2,"['C1 Spirit', 'Vanguard Warden']",Vanguard Warden,C1 Spirit -> Vanguard Warden
+831,2,"['Mustang Beta', 'Razor EX']",Razor EX,Mustang Beta -> Razor EX
+832,3,"['C8R Pisces', 'Idris-M', 'Idris-P']",Idris-P,C8R Pisces -> Idris-M -> Idris-P
+833,2,"['Avenger Stalker', 'Mercury']",Mercury,Avenger Stalker -> Mercury
+834,2,"['Idris-M', 'Polaris']",Polaris,Idris-M -> Polaris
+835,2,"['STV', 'Scythe']",Scythe,STV -> Scythe
+836,2,"['Ballista', 'Guardian']",Guardian,Ballista -> Guardian
+837,2,"['Expanse', 'Pulse LX']",Pulse LX,Expanse -> Pulse LX
+838,2,"['RAFT', 'Razor LX']",Razor LX,RAFT -> Razor LX
+839,2,"['Ranger RC', 'Kraken']",Kraken,Ranger RC -> Kraken
+840,2,"['Starfarer Gemini', 'PTV']",PTV,Starfarer Gemini -> PTV
+841,2,"['Aurora MR', 'Vanguard Sentinel']",Vanguard Sentinel,Aurora MR -> Vanguard Sentinel
+842,2,"['Razor', 'Aurora LN']",Aurora LN,Razor -> Aurora LN
+843,2,"['HoverQuad', 'Cyclone AA']",Cyclone AA,HoverQuad -> Cyclone AA
+844,3,"['Genesis', 'Aurora LN', 'Aurora MR']",Aurora MR,Genesis -> Aurora LN -> Aurora MR
+845,3,"['Carrack', '350r', 'M50']",M50,Carrack -> 350r -> M50
+846,2,"['Storm AA', 'Mule']",Mule,Storm AA -> Mule
+847,1,['Zeus ES Mk II'],Zeus ES Mk II,Zeus ES Mk II
+848,2,"['Cyclone TR', '600i Explorer']",600i Explorer,Cyclone TR -> 600i Explorer
+849,2,"['Vanguard Sentinel', 'Ares Star Fighter Inferno']",Ares Star Fighter Inferno,Vanguard Sentinel -> Ares Star Fighter Inferno
+850,2,"['Reclaimer', 'Talon Shrike']",Talon Shrike,Reclaimer -> Talon Shrike
+851,2,"['RAFT', 'Nomad']",Nomad,RAFT -> Nomad
+852,2,"['Aurora LN', 'Mustang Gamma']",Mustang Gamma,Aurora LN -> Mustang Gamma
+853,2,"['Mercury', 'Sabre Firebird']",Sabre Firebird,Mercury -> Sabre Firebird
+854,2,"['M50', 'MPUV Personnel']",MPUV Personnel,M50 -> MPUV Personnel
+855,2,"['Mustang Alpha', 'A2 Hercules']",A2 Hercules,Mustang Alpha -> A2 Hercules
+856,2,"['Valkyrie', 'Storm']",Storm,Valkyrie -> Storm
+857,2,"['Cyclone RN', 'Mule']",Mule,Cyclone RN -> Mule
+858,2,"['Mantis', 'RAFT']",RAFT,Mantis -> RAFT
+859,2,"['Nox', '300i']",300i,Nox -> 300i
+860,2,"['Constellation Phoenix', '600i Touring']",600i Touring,Constellation Phoenix -> 600i Touring
+861,2,"['Nautilus', 'ROC']",ROC,Nautilus -> ROC
+862,2,"['Hull D', 'Merchantman']",Merchantman,Hull D -> Merchantman
+863,2,"['Crucible', 'Gladiator']",Gladiator,Crucible -> Gladiator
+864,2,"['Redeemer', 'Centurion']",Centurion,Redeemer -> Centurion
+865,2,"['Ares Star Fighter Inferno', 'Freelancer DUR']",Freelancer DUR,Ares Star Fighter Inferno -> Freelancer DUR
+866,3,"['Hurricane', 'Aurora LN', 'Aurora MR']",Aurora MR,Hurricane -> Aurora LN -> Aurora MR
+867,2,"['Cyclone', 'Ursa']",Ursa,Cyclone -> Ursa
+868,2,"['Storm AA', 'G12']",G12,Storm AA -> G12
+869,2,"['Mustang Gamma', 'Cyclone MT']",Cyclone MT,Mustang Gamma -> Cyclone MT
+870,3,"['Cutter Scout', 'Storm', 'Storm AA']",Storm AA,Cutter Scout -> Storm -> Storm AA
+871,2,"['Ranger TR', 'F7C-R Hornet Tracker Mk II']",F7C-R Hornet Tracker Mk II,Ranger TR -> F7C-R Hornet Tracker Mk II
+872,2,"['HoverQuad', 'Ballista']",Ballista,HoverQuad -> Ballista
+873,2,"['F7C-S Hornet Ghost', 'Khartu-Al']",Khartu-Al,F7C-S Hornet Ghost -> Khartu-Al
+874,2,"['Hull C', 'Cutter']",Cutter,Hull C -> Cutter
+875,2,"['Cyclone RN', '600i Touring']",600i Touring,Cyclone RN -> 600i Touring
+876,2,"['Aurora LX', 'Kraken']",Kraken,Aurora LX -> Kraken
+877,2,"['Mustang Gamma', 'Vulture']",Vulture,Mustang Gamma -> Vulture
+878,2,"['Carrack', 'Retaliator']",Retaliator,Carrack -> Retaliator
+879,2,"['F7C-R Hornet Tracker Mk II', 'MPUV Tractor']",MPUV Tractor,F7C-R Hornet Tracker Mk II -> MPUV Tractor
+880,2,"['Sabre Raven', 'Centurion']",Centurion,Sabre Raven -> Centurion
+881,2,"['Defender', 'Guardian']",Guardian,Defender -> Guardian
+882,2,"['Liberator', 'Ranger CV']",Ranger CV,Liberator -> Ranger CV
+883,2,"['Hull A', 'Vanguard Hoplite']",Vanguard Hoplite,Hull A -> Vanguard Hoplite
+884,2,"['Eclipse', 'Vanguard Hoplite']",Vanguard Hoplite,Eclipse -> Vanguard Hoplite
+885,2,"['600i Touring', '315p']",315p,600i Touring -> 315p
+886,2,"['Gladius', 'Polaris']",Polaris,Gladius -> Polaris
+887,2,"['Reliant Kore', 'Avenger Stalker']",Avenger Stalker,Reliant Kore -> Avenger Stalker
+888,1,['Lynx'],Lynx,Lynx
+889,2,"['Apollo Medivac', 'Hull C']",Hull C,Apollo Medivac -> Hull C
+890,2,"['Herald', 'Spartan']",Spartan,Herald -> Spartan
+891,2,"['Terrapin', 'Arrastra']",Arrastra,Terrapin -> Arrastra
+892,2,"['X1 Force', 'Javelin']",Javelin,X1 Force -> Javelin
+893,2,"['Terrapin Medic', 'Aurora LN']",Aurora LN,Terrapin Medic -> Aurora LN
+894,2,"['Zeus CL Mk II', 'Vanguard Hoplite']",Vanguard Hoplite,Zeus CL Mk II -> Vanguard Hoplite
+895,3,"['Merchantman', 'Guardian', 'Guardian QI']",Guardian QI,Merchantman -> Guardian -> Guardian QI
+896,2,"['Buccaneer', 'Cyclone MT']",Cyclone MT,Buccaneer -> Cyclone MT
+897,3,"['Gladiator', 'Storm', 'Storm AA']",Storm AA,Gladiator -> Storm -> Storm AA
+898,2,"['Aurora CL', 'Ursa']",Ursa,Aurora CL -> Ursa
+899,2,"['Reliant Tana', 'Reclaimer']",Reclaimer,Reliant Tana -> Reclaimer
+900,2,"['Polaris', 'Aurora ES']",Aurora ES,Polaris -> Aurora ES
+901,2,"['Avenger Warlock', 'Corsair']",Corsair,Avenger Warlock -> Corsair
+902,3,"['325a', 'Idris-M', 'Idris-P']",Idris-P,325a -> Idris-M -> Idris-P
+903,2,"['Corsair', 'Expanse']",Expanse,Corsair -> Expanse
+904,2,"['Aurora CL', 'Orion']",Orion,Aurora CL -> Orion
+905,2,"['F7A Hornet Mk II', '85X']",85X,F7A Hornet Mk II -> 85X
+906,2,"['MPUV Personnel', 'Cyclone TR']",Cyclone TR,MPUV Personnel -> Cyclone TR
+907,2,"['ROC', '135c']",135c,ROC -> 135c
+908,2,"['Ironclad Assault', 'Vanguard Harbinger']",Vanguard Harbinger,Ironclad Assault -> Vanguard Harbinger
+909,2,"['F7C Hornet Mk II', 'MPUV Personnel']",MPUV Personnel,F7C Hornet Mk II -> MPUV Personnel
+910,2,"['Blade', 'Constellation Taurus']",Constellation Taurus,Blade -> Constellation Taurus
+911,2,"['Carrack', 'Ironclad Assault']",Ironclad Assault,Carrack -> Ironclad Assault
+912,2,"['Hammerhead', 'Constellation Phoenix']",Constellation Phoenix,Hammerhead -> Constellation Phoenix
+913,2,"['Crucible', 'Starfarer Gemini']",Starfarer Gemini,Crucible -> Starfarer Gemini
+914,3,"['G12a', 'Ursa', 'Ursa Medivac']",Ursa Medivac,G12a -> Ursa -> Ursa Medivac
+915,2,"['Freelancer', 'Sabre']",Sabre,Freelancer -> Sabre
+916,3,"['Prospector', 'Idris-M', 'Idris-P']",Idris-P,Prospector -> Idris-M -> Idris-P
+917,2,"['Cyclone RC', 'Ballista']",Ballista,Cyclone RC -> Ballista
+918,2,"['F7C Hornet Mk I', 'Odyssey']",Odyssey,F7C Hornet Mk I -> Odyssey
+919,2,"['F8C Lightning', 'Odyssey']",Odyssey,F8C Lightning -> Odyssey
+920,2,"['ATLS', '325a']",325a,ATLS -> 325a
+921,3,"['P-52 Merlin', 'Apollo Medivac', 'Apollo Triage']",Apollo Triage,P-52 Merlin -> Apollo Medivac -> Apollo Triage
+922,2,"['Paladin', 'Mustang Beta']",Mustang Beta,Paladin -> Mustang Beta
+923,2,"['600i Explorer', 'Freelancer MIS']",Freelancer MIS,600i Explorer -> Freelancer MIS
+924,3,"['Gladiator', 'Kraken', 'Kraken Privateer']",Kraken Privateer,Gladiator -> Kraken -> Kraken Privateer
+925,2,"['F8C Lightning', 'Mustang Gamma']",Mustang Gamma,F8C Lightning -> Mustang Gamma
+926,2,"['Merchantman', 'Mule']",Mule,Merchantman -> Mule
+927,3,"[""San'tok.yāi"", 'Ares Star Fighter Inferno', 'Ares Star Fighter Ion']",Ares Star Fighter Ion,San'tok.yāi -> Ares Star Fighter Inferno -> Ares Star Fighter Ion
+928,2,"['Apollo Triage', 'Mule']",Mule,Apollo Triage -> Mule
+929,2,"['PTV', 'Starfarer']",Starfarer,PTV -> Starfarer
+930,2,"['Cutlass Blue', 'Sabre']",Sabre,Cutlass Blue -> Sabre
+931,2,"['890 Jump', 'Vanguard Sentinel']",Vanguard Sentinel,890 Jump -> Vanguard Sentinel
+932,2,"['X1', 'F7C-S Hornet Ghost Mk II']",F7C-S Hornet Ghost Mk II,X1 -> F7C-S Hornet Ghost Mk II
+933,2,"['Sabre Peregrine', 'ROC']",ROC,Sabre Peregrine -> ROC
+934,2,"['Vanguard Warden', '600i Explorer']",600i Explorer,Vanguard Warden -> 600i Explorer
+935,2,"['Genesis', 'Constellation Aquila']",Constellation Aquila,Genesis -> Constellation Aquila
+936,2,"['Vulture', ""San'tok.yāi""]",San'tok.yāi,Vulture -> San'tok.yāi
+937,2,"['Ursa', 'Hurricane']",Hurricane,Ursa -> Hurricane
+938,2,"['G12', 'Arrow']",Arrow,G12 -> Arrow
+939,2,"['Sabre Peregrine', 'Blade']",Blade,Sabre Peregrine -> Blade
+940,2,"['Starlancer TAC', 'Sabre Raven']",Sabre Raven,Starlancer TAC -> Sabre Raven
+941,2,"['Scythe', 'Starlancer MAX']",Starlancer MAX,Scythe -> Starlancer MAX
+942,2,"['Vanguard Sentinel', '85X']",85X,Vanguard Sentinel -> 85X
+943,2,"['Aurora CL', 'Vanguard Hoplite']",Vanguard Hoplite,Aurora CL -> Vanguard Hoplite
+944,2,"['Apollo Medivac', 'Cyclone MT']",Cyclone MT,Apollo Medivac -> Cyclone MT
+945,3,"['125a', '350r', 'M50']",M50,125a -> 350r -> M50
+946,2,"[""San'tok.yāi"", 'Fury LX']",Fury LX,San'tok.yāi -> Fury LX
+947,3,"['Caterpillar', 'Avenger Stalker', 'Avenger Warlock']",Avenger Warlock,Caterpillar -> Avenger Stalker -> Avenger Warlock
+948,2,"['Gladius', 'Orion']",Orion,Gladius -> Orion
+949,2,"['Pulse LX', 'Cutlass Black']",Cutlass Black,Pulse LX -> Cutlass Black
+950,2,"['Odyssey', 'Nautilus']",Nautilus,Odyssey -> Nautilus
+951,3,"['MPUV Personnel', 'Arrow', 'Hawk']",Hawk,MPUV Personnel -> Arrow -> Hawk
+952,2,"['Gladiator', 'Cyclone MT']",Cyclone MT,Gladiator -> Cyclone MT
+953,2,"['Sabre Peregrine', 'Talon Shrike']",Talon Shrike,Sabre Peregrine -> Talon Shrike
+954,2,"['Vanguard Hoplite', 'Dragonfly']",Dragonfly,Vanguard Hoplite -> Dragonfly
+955,2,"['C8X Pisces Expedition', 'MPUV Personnel']",MPUV Personnel,C8X Pisces Expedition -> MPUV Personnel
+956,2,"['Nova', 'Vulcan']",Vulcan,Nova -> Vulcan
+957,3,"['Buccaneer', 'Guardian', 'Guardian QI']",Guardian QI,Buccaneer -> Guardian -> Guardian QI
+958,2,"['Avenger Titan', 'Intrepid']",Intrepid,Avenger Titan -> Intrepid
+959,2,"['F8C Lightning', 'G12a']",G12a,F8C Lightning -> G12a
+960,3,"['Vanguard Sentinel', 'Guardian', 'Guardian QI']",Guardian QI,Vanguard Sentinel -> Guardian -> Guardian QI
+961,2,"['Mustang Gamma', 'G12r']",G12r,Mustang Gamma -> G12r
+962,2,"['Cutter Scout', 'Starfarer Gemini']",Starfarer Gemini,Cutter Scout -> Starfarer Gemini
+963,2,"['Ironclad', '135c']",135c,Ironclad -> 135c
+964,2,"['Hull E', 'Talon Shrike']",Talon Shrike,Hull E -> Talon Shrike
+965,2,"['Freelancer MIS', 'Constellation Aquila']",Constellation Aquila,Freelancer MIS -> Constellation Aquila
+966,2,"['P-72 Archimedes', '125a']",125a,P-72 Archimedes -> 125a
+967,2,"['400i', '890 Jump']",890 Jump,400i -> 890 Jump
+968,2,"['C1 Spirit', 'E1 Spirit']",E1 Spirit,C1 Spirit -> E1 Spirit
+969,2,"['Hull C', 'Hurricane']",Hurricane,Hull C -> Hurricane
+970,7,"['Gladius', 'Prospector', 'Mustang Beta', 'F7C-S Hornet Ghost Mk II', 'X1 Force', 'Apollo Triage']",Apollo Triage,Gladius -> Prospector -> Mustang Beta -> F7C-S Hornet Ghost Mk II -> X1 Force -> Apollo Triage
+971,2,"['Galaxy', '400i']",400i,Galaxy -> 400i
+972,2,"['Ursa Medivac', 'F7C-R Hornet Tracker Mk II']",F7C-R Hornet Tracker Mk II,Ursa Medivac -> F7C-R Hornet Tracker Mk II
+973,3,"['STV', 'Mustang Gamma', 'Mustang Omega']",Mustang Omega,STV -> Mustang Gamma -> Mustang Omega
+974,2,"['Cutter Rambler', 'SRV']",SRV,Cutter Rambler -> SRV
+975,2,"['X1 Force', 'C8X Pisces Expedition']",C8X Pisces Expedition,X1 Force -> C8X Pisces Expedition
+976,2,"['Avenger Titan', 'Starfarer Gemini']",Starfarer Gemini,Avenger Titan -> Starfarer Gemini
+977,3,"['Cutlass Steel', 'Ursa', 'Ursa Medivac']",Ursa Medivac,Cutlass Steel -> Ursa -> Ursa Medivac
+978,2,"['SRV', 'Polaris']",Polaris,SRV -> Polaris
+979,3,"['RAFT', 'Apollo Medivac', 'Apollo Triage']",Apollo Triage,RAFT -> Apollo Medivac -> Apollo Triage
+980,2,"['Cyclone RN', 'Corsair']",Corsair,Cyclone RN -> Corsair
+981,2,"['Prowler', 'C8R Pisces']",C8R Pisces,Prowler -> C8R Pisces
+982,2,"['A2 Hercules', 'Perseus']",Perseus,A2 Hercules -> Perseus
+983,2,"['Hull E', '315p']",315p,Hull E -> 315p
+984,2,"['Blade', 'Talon Shrike']",Talon Shrike,Blade -> Talon Shrike
+985,2,"['100i', 'Vanguard Warden']",Vanguard Warden,100i -> Vanguard Warden
+986,2,"['Cyclone TR', 'Zeus CL Mk II']",Zeus CL Mk II,Cyclone TR -> Zeus CL Mk II
+987,2,"['P-72 Archimedes', 'F7C-S Hornet Ghost']",F7C-S Hornet Ghost,P-72 Archimedes -> F7C-S Hornet Ghost
+988,2,"['Cutlass Blue', 'Cutlass Black']",Cutlass Black,Cutlass Blue -> Cutlass Black
+989,2,"['G12', 'ROC']",ROC,G12 -> ROC
+990,2,"['F7C-R Hornet Tracker', 'Khartu-Al']",Khartu-Al,F7C-R Hornet Tracker -> Khartu-Al
+991,2,"['M2 Hercules', 'Mercury']",Mercury,M2 Hercules -> Mercury
+992,2,"['Talon Shrike', 'F7C Hornet Mk II']",F7C Hornet Mk II,Talon Shrike -> F7C Hornet Mk II
+993,3,"['135c', 'Guardian', 'Guardian QI']",Guardian QI,135c -> Guardian -> Guardian QI
+994,2,"['300i', 'Scorpius']",Scorpius,300i -> Scorpius
+995,2,"['Ranger RC', 'Liberator']",Liberator,Ranger RC -> Liberator
+996,2,"['Aurora LX', 'Talon Shrike']",Talon Shrike,Aurora LX -> Talon Shrike
+997,2,"['Terrapin Medic', 'Sabre']",Sabre,Terrapin Medic -> Sabre
+998,3,"['Apollo Triage', 'Arrow', 'Hawk']",Hawk,Apollo Triage -> Arrow -> Hawk
+999,2,"['315p', 'M2 Hercules']",M2 Hercules,315p -> M2 Hercules
+1000,2,"['Buccaneer', '100i']",100i,Buccaneer -> 100i

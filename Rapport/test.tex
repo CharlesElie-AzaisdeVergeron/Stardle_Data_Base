@@ -2,9 +2,10 @@
 \usepackage{graphicx} % Required for inserting images
 \usepackage{hyperref}
 \usepackage[ruled,vlined]{algorithm2e}
-\usepackage{pythontex} 
 \usepackage{listings}
 \usepackage{xcolor}
+\usepackage{algorithm}
+\usepackage{algorithmic}
 
 % Define a nice style for Python code
 \lstdefinestyle{pythonstyle}{
@@ -184,29 +185,22 @@ par des histogrammes et des graphes. Les histogrammes précisent la répartition
 alors que des graphes précise les relations entre eux.
 
 
+PSEUDO CODE DE STARDLE AUTO ICI
 
 
-\subsection{Algorithme de récupération}
-\begin{algorithm}[H]
-\SetAlgoLined
-\KwData{URL de l'API Star Citizen}
-\KwResult{Deux fichiers JSON (shipList.json et shipDB.json)}
+\subsection{Complexité}
+\begin{itemize}
+    \item Temporelle : $O(n \log n)$ où n est le nombre de vaisseaux
+    \item Spatiale : $O(n)$ pour stocker les vaisseaux visités et les distances
+\end{itemize}
 
-Initialiser ShipName = \{\} et ShipDB = \{\}\;
-Requête GET à l'API pour obtenir la liste des vaisseaux\;
-\For{chaque vaisseau dans la liste}{
-    Requête GET pour obtenir les détails du vaisseau\;
-    \eIf{DataBaseType == "Stardle"}{
-        Extraire: nom, fabricant, rôle, longueur, prix, cargo, équipage\;
-        Ajouter au ShipDB\;
-    }{
-        Sauvegarder toutes les données du vaisseau\;
-    }
-}
-Sauvegarder ShipName dans shipList.json\;
-Sauvegarder ShipDB dans shipDB\_[Type].json\;
-\caption{Récupération des données des vaisseaux}
-\end{algorithm}
+\subsection{Points clés}
+\begin{itemize}
+    \item Utilisation d'un système de distances entre vaisseaux
+    \item Mémorisation des vaisseaux déjà testés
+    \item Sélection intelligente du prochain vaisseau basée sur la distance
+    \item Fallback sur une sélection aléatoire si aucune distance n'est disponible
+\end{itemize}
 
 
 \end{document}
