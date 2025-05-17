@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.1)  9 MAY 2025 14:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.1)  11 MAY 2025 16:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -149,16 +149,21 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip51
-) (/home/leferre/.miktex/texmfs/install/tex/latex/algorithm2e/algorithm2e.sty
+) (/home/leferre/.miktex/texmfs/install/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+ (/home/leferre/.miktex/texmfs/install/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
+\BKM@id=\count282
+)) (/home/leferre/.miktex/texmfs/install/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count282
+\c@AlgoLine=\count283
  (/home/leferre/.miktex/texmfs/install/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 \algocf@hangindent=\skip52
  (/home/leferre/.miktex/texmfs/install/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count283
+\c@checkoddpage=\count284
 ) (/home/leferre/.miktex/texmfs/install/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 ) (/home/leferre/.miktex/texmfs/install/tex/latex/relsize/relsize.sty
@@ -194,30 +199,30 @@ Package: relsize 2013/03/29 ver 4.1
 \algoheightrule=\skip68
 \algotitleheightruledefault=\skip69
 \algotitleheightrule=\skip70
-\c@algocfline=\count284
-\c@algocfproc=\count285
-\c@algocf=\count286
+\c@algocfline=\count285
+\c@algocfproc=\count286
+\c@algocf=\count287
 \algocf@algoframe=\box58
 \algocf@algobox=\box59
 ) (/home/leferre/.miktex/texmfs/install/tex/latex/listings/listings.sty
-\lst@mode=\count287
+\lst@mode=\count288
 \lst@gtempboxa=\box60
 \lst@token=\toks18
-\lst@length=\count288
+\lst@length=\count289
 \lst@currlwidth=\dimen154
-\lst@column=\count289
-\lst@pos=\count290
+\lst@column=\count290
+\lst@pos=\count291
 \lst@lostspace=\dimen155
 \lst@width=\dimen156
-\lst@newlines=\count291
-\lst@lineno=\count292
+\lst@newlines=\count292
+\lst@lineno=\count293
 \lst@maxwidth=\dimen157
  (/home/leferre/.miktex/texmfs/install/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 ) (/home/leferre/.miktex/texmfs/install/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count293
-\lst@skipnumbers=\count294
+\c@lstnumber=\count294
+\lst@skipnumbers=\count295
 \lst@framebox=\box61
 ) (/home/leferre/.miktex/texmfs/install/tex/latex/listings/listings.cfg
 File: listings.cfg 2024/09/23 1.10c listings configuration
@@ -243,14 +248,14 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
  (/home/leferre/.miktex/texmfs/install/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count295
+\c@float@type=\count296
 \float@exts=\toks19
 \float@box=\box62
 \@float@everytoks=\toks20
 \@floatcapt=\box63
 )
 \@float@every@algorithm=\toks21
-\c@algorithm=\count296
+\c@algorithm=\count297
 
 
 /home/leferre/.miktex/texmfs/install/tex/latex/algorithms/algorithm.sty:97: LaTeX Error: Command \listofalgorithms already defined.
@@ -268,49 +273,49 @@ or  <return>  to continue without it.
 
 ) (/home/leferre/.miktex/texmfs/install/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count297
-\c@ALC@line=\count298
-\c@ALC@rem=\count299
-\c@ALC@depth=\count300
+\c@ALC@unique=\count298
+\c@ALC@line=\count299
+\c@ALC@rem=\count300
+\c@ALC@depth=\count301
 \ALC@tlm=\skip71
 \algorithmicindent=\skip72
 ) (/home/leferre/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count301
+\l__color_backend_stack_int=\count302
 \l__pdf_internal_box=\box64
 ) (test.aux)
 \openout1 = `test.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
  (/home/leferre/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count302
+\scratchcounter=\count303
 \scratchdimen=\dimen158
 \scratchbox=\box65
-\nofMPsegments=\count303
-\nofMParguments=\count304
+\nofMPsegments=\count304
+\nofMParguments=\count305
 \everyMPshowfont=\toks22
-\MPscratchCnt=\count305
+\MPscratchCnt=\count306
 \MPscratchDim=\dimen159
-\MPnumerator=\count306
-\makeMPintoPDFobject=\count307
+\MPnumerator=\count307
+\makeMPintoPDFobject=\count308
 \everyMPtoPDFconversion=\toks23
 ) (/home/leferre/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -318,119 +323,135 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/home/leferre/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 30.
-\@outlinefile=\write3
-\openout3 = `test.out'.
-
-\c@lstlisting=\count308
+Package hyperref Info: Link coloring OFF on input line 29.
+\c@lstlisting=\count309
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 33.
+(Font)              <12> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 33.
+(Font)              <8> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 33.
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-
- []
-
+(Font)              <6> on input line 31.
 
 
 [1
 
 {/home/leferre/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (3.86171pt too wide) in paragraph at lines 75--77
-\OT1/cmr/m/n/10 La r^^Secup^^Seration des donn^^Sees est faite via le script Python Cre-ate-Ship-Database.py.
- []
+<stardle.png, id=14, 963.6pt x 485.815pt>
+File: stardle.png Graphic file (type png)
+<use stardle.png>
+Package pdftex.def Info: stardle.png  used on input line 67.
+(pdftex.def)             Requested size: 276.00105pt x 139.14812pt.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--108
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--115
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
 
 
-[2]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 127.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 127.
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
-
+[2
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.80 
+      <./stardle.png>]
+Overfull \hbox (12.7772pt too wide) in paragraph at lines 84--86
+\OT1/cmr/m/n/10 La r^^Secup^^Seration des donn^^Sees est faite via le script Python [][]\OT1/cmtt/m/n/10 CreateShipDatabase.py[]\OT1/cmr/m/n/10 .
  []
 
 
-Overfull \hbox (80.24629pt too wide) in paragraph at lines 169--169
-[]    \OT1/cmtt/m/n/10 Vous vous ^etes tromp^^Ses de vaisseau. Voici les r^^Sesultats de chaque variables :[] 
- []
+Underfull \hbox (badness 10000) in paragraph at lines 111--121
 
-
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 169--169
-[]     \OT1/cmtt/m/n/10 -pour la variable cargo_capacity ce n est pas la bonne r^^Seponse X[] 
- []
-
-
-Overfull \hbox (6.74693pt too wide) in paragraph at lines 169--169
-[]     \OT1/cmtt/m/n/10 -pour la variable manufacturer ce n est pas la bonne r^^Seponse X[] 
- []
-
-
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 169--169
-[]     \OT1/cmtt/m/n/10 -pour la variable release_date ce n est pas la bonne r^^Seponse  X[] 
- []
-
-
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 169--169
-[]     \OT1/cmtt/m/n/10 -pour la variable price_ingame ce n est pas la bonne r^^Seponse  X[] 
  []
 
 
 
 [3]
-Overfull \hbox (0.89119pt too wide) in paragraph at lines 179--181
-[]\OT1/cmr/m/n/10 ON TRAITE L AN-NEE DE SOR-TIE ET LE NBRE D EQUIPAGE COMME
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 134.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 134.
+
+
+/home/leferre/Bureau/Fac/base de données/Projet/Stardle_Data_Base/Rapport/test.tex:135: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `fig:graph' on page 4 undefined on input line 145.
+
+<graphe_type.png, id=39, 2171.7135pt x 2160.873pt>
+File: graphe_type.png Graphic file (type png)
+<use graphe_type.png>
+Package pdftex.def Info: graphe_type.png  used on input line 148.
+(pdftex.def)             Requested size: 310.4979pt x 308.94974pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+/home/leferre/Bureau/Fac/base de données/Projet/Stardle_Data_Base/Rapport/test.tex:203: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.203 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+
+[4]
+Overfull \vbox (197.87216pt too high) has occurred while \output is active []
+
+
+
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.203 
+       <./graphe_type.png>]
+Overfull \hbox (6.08394pt too wide) in paragraph at lines 206--207
+\OT1/cmr/m/n/10 dans cer-tains cas de vais-seaux proches trop ^^Segaux dans leur donn^^Sees, l'alghorithme
  []
 
 
 
-[4] (test.aux)
+[6] (test.aux)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
 
 
-Package rerunfilecheck Warning: File `test.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: Checksums for `test.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  99D2CB4F26F7ABBAA244590361176218;1554.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 11587 strings out of 475585
- 180441 string characters out of 5770207
- 591388 words of memory out of 5000000
- 34308 multiletter control sequences out of 15000+600000
+ 11881 strings out of 475585
+ 185215 string characters out of 5770207
+ 594487 words of memory out of 5000000
+ 34592 multiletter control sequences out of 15000+600000
  563532 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,9n,79p,382b,586s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,19n,79p,591b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/leferre/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></home/leferre/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on test.pdf (4 pages, 150132 bytes).
+Output written on test.pdf (6 pages, 4300670 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 144 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
