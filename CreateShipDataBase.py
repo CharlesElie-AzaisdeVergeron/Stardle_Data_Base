@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 Url = "https://api.star-citizen.wiki/api/v3/vehicles?page=1&limit=1000&locale=en_EN"
 script_dir = Path(__file__).parent
 
-DataBaseType = "All" # All / Stardle / Simple
+DataBaseType = "Stardle" # All / Stardle / Simple
 
 if __name__ == "__main__":
 
